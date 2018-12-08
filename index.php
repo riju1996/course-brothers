@@ -11,6 +11,9 @@
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700" rel="stylesheet">
 
+  <!-- FONTAWESOME -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
+
   <!-- CUSTOM CSS -->
   <link rel='stylesheet' href='./styles/style.css' />
 
@@ -102,11 +105,27 @@
         <div class="header__container">
 
           <div class="header__logo">
-            <img src='assets\svg\cb-logo.svg' />
+            <a href='index.php'><img src='assets\svg\cb-logo.svg' /></a>
           </div>
 
           <div class="header__content">
-            
+            <h1 class='header__title'>Which course are you looking for?</h1>
+
+            <div class="header__form">
+              <div class="header__browse">
+                <input type='text' placeholder='BROWSE ALL CATEGORIES' />
+              </div>
+              <h1>OR</h1>
+              <div class="header__search">
+                <input type='text' placeholder='SEARCH FOR COURSES                                MBA, BBA etc' />
+              </div>
+              <button class='header__submit'>&nbsp;SEARCH</button>
+            </div>
+
+            <div class="header__caret">
+              <i class="fa fa-angle-down"></i>
+            </div>
+
           </div>
 
         </div>
