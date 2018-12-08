@@ -165,9 +165,9 @@ body {
 
 .header .header__main .header__form .header__browse input, .header .header__main .header__form .header__search input {
   border: none;
-  padding: 1.8rem;
+  padding: 1.8rem 4rem 1.8rem 4rem;
   border-radius: 5rem;
-  width: 55rem;
+  width: 50rem;
   outline: none;
   font-weight: 500;
   color: grey;
@@ -204,7 +204,7 @@ body {
 .header .header__main .header__form .header__submit {
   padding: 1.5rem 2rem;
   background-color: #DB324D;
-  border: 2px solid white;
+  border: 1.5px solid white;
   border-radius: 5rem;
   color: white;
   font-weight: 600;
@@ -219,7 +219,7 @@ body {
 }
 
 .header .header__main .header__form .header__submit:hover {
-  background-color: #cf2440;
+  background-color: #c2223c;
 }
 
 .header .header__main .header__caret {
@@ -231,5 +231,15 @@ body {
   text-align: center;
   font-size: 6rem;
   color: white;
+}
+
+.tooltipstered {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.tooltipster-base {
+  color: #DB324D;
+  text-align: center;
+  padding: 0.5rem;
 }
 /*# sourceMappingURL=style.css.map */

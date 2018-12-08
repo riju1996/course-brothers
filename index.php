@@ -14,6 +14,12 @@
   <!-- FONTAWESOME -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
 
+  <!-- jQuery Plugins -->
+
+  <!-- TOOLTIPSTER -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css' />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-shadow.min.css' />
+
   <!-- CUSTOM CSS -->
   <link rel='stylesheet' href='./styles/style.css' />
 
@@ -40,14 +46,18 @@
             </div>
             <div class="contact__email">
               <span>
-                <img src='assets\svg\Icons\white\mail-black-envelope-symbol.svg' />
+                <a href='mailto:shyam.d@gmail.com'>
+                  <img src='assets\svg\Icons\white\mail-black-envelope-symbol.svg' />
+                </a>
                 <span>shyam.d@gmail.com</span>
               </span>
             </div>
           </div>
 
           <div class="features">
-            <div class="feature">
+            <div 
+                class="feature tooltip" 
+                title='For formal education courses, check the status of the listed universities on the UGC DEB website.'>
               <span>
                 <span class='feature__text'>
                   <span>CREDIBLE</span>
@@ -56,7 +66,10 @@
                 <img src='assets\svg\Icons\white\apartments.svg' />
               </span>
             </div>
-            <div class="feature">
+            <div 
+              class="feature tooltip" 
+              title='CourseBrothers.com is not a study center and has no role in admission decisions, 
+                    examinations and / or awarding any degree or diploma.'>
               <span>
                 <span class='feature__text'>
                   <span>TRANSPARENT</span>
@@ -65,7 +78,9 @@
                 <img src='assets\svg\Icons\white\information.svg' />
               </span>
             </div>
-            <div class="feature">
+            <div 
+              class="feature tooltip" 
+              title='CourseBrothers.com charges no extra fee. No discount is offered by the course provider of any of the courses listed.'>
               <span>
                 <span class='feature__text'>
                   <span>GENUINE</span>
@@ -74,7 +89,9 @@
                 <img src='assets\svg\Icons\white\give-money.svg' />
               </span>
             </div>
-            <div class="feature">
+            <div 
+              class="feature tooltip" 
+              title='Get expert and dedicated counselling support to make an informed education decision.'>
               <span>
                 <span class='feature__text'>
                   <span>COUNSELLING</span>
@@ -83,7 +100,9 @@
                 <img src='assets\svg\Icons\white\phone-receiver.svg' />
               </span>
             </div>
-            <div class="feature">
+            <div 
+              class="feature tooltip" 
+              title='Study material is provided by the respective course providers.'>
               <span>
                 <span class='feature__text'>
                   <span>STUDY</span>
@@ -113,11 +132,11 @@
 
             <div class="header__form">
               <div class="header__browse">
-                <input type='text' placeholder='  BROWSE ALL CATEGORIES' />
+                <input type='text' placeholder='BROWSE ALL CATEGORIES' />
               </div>
               <h1>OR</h1>
               <div class="header__search">
-                <input type='text' placeholder='  SEARCH FOR COURSES                                MBA, BBA etc' />
+                <input type='text' placeholder='SEARCH FOR COURSES                                MBA, BBA etc' />
               </div>
               <button class='header__submit'>&nbsp;SEARCH</button>
             </div>
@@ -139,6 +158,24 @@
 
   </div>
   <!-- /MAIN CONTAINER -->
+
+
+  <!-- jQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+  <!-- TweenMax -->
+  <script 
+    src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js'>
+  </script>
+  <!-- ToolTipster -->
+  <script 
+    src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
+  </script>
+  <!-- CUSTOM JS -->
+  <script src='./js/custom.js'></script>
 
 </body>
 </html>
