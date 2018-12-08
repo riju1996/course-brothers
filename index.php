@@ -46,7 +46,7 @@
             </div>
             <div class="contact__email">
               <span>
-                <a href='mailto:shyam.d@gmail.com'>
+                <a class='tooltip' title='Click to open in your default email application' href='mailto:shyam.d@gmail.com'>
                   <img src='assets\svg\Icons\white\mail-black-envelope-symbol.svg' />
                 </a>
                 <span>shyam.d@gmail.com</span>
@@ -136,7 +136,7 @@
               </div>
               <h1>OR</h1>
               <div class="header__search">
-                <input type='text' placeholder='SEARCH FOR COURSES                                MBA, BBA etc' />
+                <input type='text' placeholder='SEARCH FOR COURSES                              MBA, BBA etc' />
               </div>
               <button class='header__submit'>&nbsp;SEARCH</button>
             </div>
