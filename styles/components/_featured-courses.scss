@@ -1,0 +1,15 @@
+// Featured Courses styling
+.featured_courses {
+
+  width: 100%;
+  height: 105vh;
+  &__title {
+    font-size: $section_title_size;
+    color: $rusty-red;
+    text-align: center;
+    letter-spacing: $section_title_spacing;
+    font-weight: $section_title_weight;
+    margin-top: 4.5rem;
+  }
+
+}

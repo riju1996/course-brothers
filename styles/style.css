@@ -7,6 +7,20 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.featured_courses {
+  width: 100%;
+  height: 105vh;
+}
+
+.featured_courses__title {
+  font-size: 2.5rem;
+  color: #DB324D;
+  text-align: center;
+  letter-spacing: 0.4rem;
+  font-weight: 600;
+  margin-top: 4.5rem;
+}
+
 .header .contact__num > span, .header .contact__email > span {
   display: -webkit-box;
   display: -ms-flexbox;

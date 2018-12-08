@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets\images\favicon.png" type="image/png" />
 
   <!-- NORMALIZE CSS -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' />
@@ -155,6 +156,15 @@
 
     </div>
     <!-- /HEADER -->
+
+
+    <!-- FEATURED_COURSES -->
+    <div class="featured_courses">
+      
+      <h1 class='featured_courses__title'>FEATURED COURSES</h1>
+
+    </div>
+    <!-- /FEATURED_COURSES -->
 
   </div>
   <!-- /MAIN CONTAINER -->

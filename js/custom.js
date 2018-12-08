@@ -7,7 +7,9 @@ $(document).ready(function() {
   });
 
 
-  // GSAP Animations
+  // =====  GSAP Animations =====
+
+  // Variables
   $caret = $('.header__caret');
   $header = $('.header__title, .header__form');
 
