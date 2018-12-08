@@ -57,7 +57,7 @@
           <div class="features">
             <div 
                 class="feature tooltip" 
-                title='For formal education courses, check the status of the listed universities on the UGC DEB website.'>
+                title='For formal education courses, check the status of the listed universities on the UGC DEB website. https://www.ugc.ac.in/deb/'>
               <span>
                 <span class='feature__text'>
                   <span>CREDIBLE</span>
@@ -167,9 +167,7 @@
     crossorigin="anonymous">
   </script>
   <!-- TweenMax -->
-  <script 
-    src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js'>
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
