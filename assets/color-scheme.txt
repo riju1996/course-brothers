@@ -1,4 +1,0 @@
-$light-red: #FF8B9C;
-$blush-pink: #F34965;
-$dark-red: #A62639;
-$rusty-red: #DB324D;
