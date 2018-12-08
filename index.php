@@ -113,11 +113,11 @@
 
             <div class="header__form">
               <div class="header__browse">
-                <input type='text' placeholder='BROWSE ALL CATEGORIES' />
+                <input type='text' placeholder='  BROWSE ALL CATEGORIES' />
               </div>
               <h1>OR</h1>
               <div class="header__search">
-                <input type='text' placeholder='SEARCH FOR COURSES                                MBA, BBA etc' />
+                <input type='text' placeholder='  SEARCH FOR COURSES                                MBA, BBA etc' />
               </div>
               <button class='header__submit'>&nbsp;SEARCH</button>
             </div>
