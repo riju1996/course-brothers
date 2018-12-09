@@ -38,7 +38,7 @@
       padding: 2.2rem 1.8rem 1.8rem 5rem;
       font-size: 1.4rem;
       font-weight: $medium;
-      transition: 0.4s;
+      transition: all 0.2s ease-out;
       cursor: pointer;
       border: 1px solid $rusty-red;
       &:nth-child(1) {

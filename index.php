@@ -187,11 +187,11 @@
       <div class="ins_uni__gallery">
         <img src="./assets/images/universities_institute_img/aims1.jpg" alt="">
         <img src="./assets/images/universities_institute_img/iamai3.png" alt="">
-        <img src="./assets/images/universities_institute_img/InternShala1.png" alt="">
+        <img src="./assets/images/universities_institute_img/InternShala2.png" alt="">
         <img src="./assets/images/universities_institute_img/MeritNation.com_1.png" alt="">
         <img src="./assets/images/universities_institute_img/NMIMS.png" alt="">
         <img src="./assets/images/universities_institute_img/Norwich1.png" alt="">
-        <img src="./assets/images/universities_institute_img/whizlabs.png" alt="">
+        <img src="./assets/images/universities_institute_img/whizlabs2.png" alt="">
         <img src="./assets/images/universities_institute_img/Toppr1.png" alt="">
       </div>
 
@@ -237,6 +237,82 @@
       </div>
     </div>
     <!-- /FEATURES -->
+
+
+    <!-- TOP_COURSES -->
+    <div class="top_courses">
+      <h1 class='top_courses__title'>TOP COURSES</h1>
+      <div class="top_courses__container">
+
+        <div class="top_courses__section">
+          <div class="section_header">
+            <span><img src='./assets/svg/Icons/red/graduate-student-avatar.svg' /></span>
+            <h3>GRADUATE & <br> POST-GRADUATE</h3>
+          </div>
+          <div class="section_links">
+            <a href="#">MBA</a>, 
+            <a href="#">Executive MBA</a>, 
+            <a href="#">MA</a>, 
+            <a href="#">MCOM</a>, 
+            <a href="#">MCA</a>, 
+            <a href="#">MSc</a>, <br>
+            <a href="#">LLM</a>, 
+            <a href="#">BBA</a>, 
+            <a href="#">BA</a>, 
+            <a href="#">BCom</a>, 
+            <a href="#">BCA</a>, 
+            <a href="#">BSc</a>
+          </div>
+        </div>
+        <div class="top_courses__section">
+          <div class="section_header">
+            <span><img src='./assets/svg/Icons/red/mirror.svg' /></span>
+            <h3>SPECIALISATION</h3>
+          </div>
+          <div class="section_links">
+            <a href="#">Information Technology</a>, 
+            <a href="#">HR</a>, 
+            <a href="#">Marketing</a>, 
+            <a href="#">Retail</a>, <br>
+            <a href="#">Operations</a>, 
+            <a href="#">Aviation</a>, 
+            <a href="#">Oil & Gas</a>, 
+            <a href="#">Journalism</a>  
+          </div>
+        </div>
+        <div class="top_courses__section">
+          <div class="section_header">
+            <span><img src='./assets/svg/Icons/red/old-school.svg' /></span>
+            <h3>UNIVERSITIES & <br> INSTITUTES</h3>
+          </div>
+          <div class="section_links">
+            <a href="#">NMIMS</a>,
+            <a href="#">Annamalai University</a>, <br>
+            <a href="#">Bharati Vidyapeeth</a>, 
+            <a href="#">UPES</a>, 
+            <a href="#">ADTU</a>
+          </div>
+        </div>
+        <div class="top_courses__section">
+          <div class="section_header">
+            <span><img src='./assets/svg/Icons/red/graduate-diploma.svg' /></span>
+            <h3>DIPLOMA & <br> PG DIPLOMA</h3>
+          </div>
+          <div class="section_links">
+            <a href="#">Finance</a>, 
+            <a href="#">HR</a>, 
+            <a href="#">Banking</a>, 
+            <a href="#">Marketing</a>, 
+            <a href="#">IT</a>, <br>
+            <a href="#">Operations</a>, 
+            <a href="#">Supply Chain</a>, 
+            <a href="#">Retail</a>, 
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /TOP_COURSES -->
 
 
   </div>
