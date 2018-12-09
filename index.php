@@ -133,11 +133,11 @@
 
             <div class="header__form">
               <div class="header__browse">
-                <input type='text' placeholder='BROWSE ALL CATEGORIES' />
+                <input type='text' placeholder='SEARCH FOR COURSES                              MBA, BBA etc' />
               </div>
               <h1>OR</h1>
               <div class="header__search">
-                <input type='text' placeholder='SEARCH FOR COURSES                              MBA, BBA etc' />
+                <input type='text' placeholder='BROWSE ALL CATEGORIES' />
               </div>
               <button class='header__submit'>&nbsp;SEARCH</button>
             </div>
@@ -163,8 +163,41 @@
       
       <h1 class='featured_courses__title'>FEATURED COURSES</h1>
 
+      <div class="featured_courses__container">
+        <div class="featured_courses__list">
+          <ul>
+            <li>PGD MBA</li>
+            <li>PG COURSES</li>
+            <li>UG COURSES</li>
+            <li>DIPLOMA</li>
+            <li>CERTIFICATES</li>
+          <ul>
+        </div>
+        <!-- TODO: Add the courses carousel with AJAX -->
+      </div>
+
     </div>
     <!-- /FEATURED_COURSES -->
+
+    
+    <!-- INSTITUTIONS_UNIVERSITIES -->
+    <div class="ins_uni">
+
+      <h1 class="ins_uni__title">INSTITUTIONS & UNIVERSITIES</h1>
+      <div class="ins_uni__gallery">
+        <img src="./assets/images/universities_institute_img/aims1.jpg" alt="">
+        <img src="./assets/images/universities_institute_img/iamai3.png" alt="">
+        <img src="./assets/images/universities_institute_img/InternShala1.png" alt="">
+        <img src="./assets/images/universities_institute_img/MeritNation.com_1.png" alt="">
+        <img src="./assets/images/universities_institute_img/NMIMS.png" alt="">
+        <img src="./assets/images/universities_institute_img/Norwich1.png" alt="">
+        <img src="./assets/images/universities_institute_img/whizlabs.png" alt="">
+        <img src="./assets/images/universities_institute_img/Toppr1.png" alt="">
+      </div>
+
+    </div>
+    <!-- /INSTITUTIONS_UNIVERSITIES -->
+
 
   </div>
   <!-- /MAIN CONTAINER -->

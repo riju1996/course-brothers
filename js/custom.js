@@ -52,6 +52,6 @@ $(document).ready(function() {
     ;
   };
 
-  start();
+  window.addEventListener('load', start);
 
 });

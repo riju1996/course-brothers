@@ -10,6 +10,10 @@ body {
 .featured_courses {
   width: 100%;
   height: 105vh;
+  background-image: url("../assets/svg/course-features-bg.svg");
+  background-size: cover;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
 }
 
 .featured_courses__title {
@@ -19,6 +23,59 @@ body {
   letter-spacing: 0.4rem;
   font-weight: 600;
   margin-top: 4.5rem;
+}
+
+.featured_courses__container {
+  width: 82%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.featured_courses__list {
+  width: 30rem;
+  margin-top: 12rem;
+}
+
+.featured_courses__list ul {
+  list-style-type: none;
+}
+
+.featured_courses__list li {
+  position: relative;
+  background-color: #DB324D;
+  color: white;
+  padding: 2.2rem 1.8rem 1.8rem 5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  cursor: pointer;
+  border: 1px solid #DB324D;
+}
+
+.featured_courses__list li:nth-child(1) {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.featured_courses__list li:nth-child(5) {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.featured_courses__list li:hover {
+  background-color: white;
+  color: #DB324D;
+}
+
+.featured_courses__list li:hover::after {
+  content: '\203A';
+  color: #DB324D;
+  position: absolute;
+  font-size: 3.3rem;
+  right: 2.8rem;
+  top: 0.7rem;
+  font-weight: 500;
 }
 
 .header .contact__num > span, .header .contact__email > span {
@@ -251,5 +308,43 @@ body {
   color: #DB324D;
   text-align: center;
   padding: 0.5rem;
+}
+
+.ins_uni {
+  width: 100%;
+  height: 90vh;
+}
+
+.ins_uni__title {
+  font-size: 2.5rem;
+  letter-spacing: 0.4rem;
+  color: #DB324D;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.ins_uni__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 8rem;
+  height: 50vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.ins_uni__gallery img {
+  width: 24vw;
+  height: 20vh;
 }
 /*# sourceMappingURL=style.css.map */
