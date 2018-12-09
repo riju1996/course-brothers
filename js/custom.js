@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   // WOW JS
-  new WOW().init();
+  window.addEventListener('load', function () { new WOW().init(); });
 
   // Add tooltips
   $('.tooltip').tooltipster({
