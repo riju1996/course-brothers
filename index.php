@@ -132,12 +132,23 @@
             <h1 class='header__title'>Which course are you looking for?</h1>
 
             <div class="header__form">
-              <div class="header__browse">
-                <input type='text' placeholder='SEARCH FOR COURSES                              MBA, BBA etc' />
+              <div class="header__search">
+                <input type='text' placeholder='SEARCH FOR COURSES                                              MBA, BBA etc' />
               </div>
               <h1>OR</h1>
-              <div class="header__search">
-                <input type='text' placeholder='BROWSE ALL CATEGORIES' />
+              <div class="header__browse">
+                <select>
+                  <option>BROWSE ALL CATEGORIES</option>
+                  <option>Post Graduate</option>
+                  <option>Under Graduate</option>
+                  <option>Diploma</option>
+                </select>
+                <select>
+                  <option>PLEASE SELECT A PROGRAM</option>
+                  <option>Marketing</option>
+                  <option>MBA</option>
+                  <option>BBA</option>
+                </select>
               </div>
               <button class='header__submit'>&nbsp;SEARCH</button>
             </div>
