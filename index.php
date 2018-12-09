@@ -21,6 +21,9 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-shadow.min.css' />
 
+  <!-- ANIMATE CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css' />
+
   <!-- CUSTOM CSS -->
   <link rel='stylesheet' href='./styles/style.css' />
 
@@ -38,7 +41,7 @@
       <div class='header__contact'>
         <div class="header__contact__container">
           
-          <div class="contact">
+          <div class="contact wow fadeInLeft">
             <div class="contact__num">
               <span>
                 <img src='assets\svg\Icons\white\phone-book.svg' />
@@ -55,7 +58,7 @@
             </div>
           </div>
 
-          <div class="features">
+          <div class="features wow fadeInRight">
             <div 
                 class="feature tooltip" 
                 title='For formal education courses, check the status of the listed universities on the UGC DEB website. https://www.ugc.ac.in/deb/'>
@@ -129,14 +132,14 @@
           </div>
 
           <div class="header__content">
-            <h1 class='header__title'>Which course are you looking for?</h1>
+            <h1 class='header__title wow fadeInDown'>Which course are you looking for?</h1>
 
             <div class="header__form">
-              <div class="header__search">
+              <div class="header__search wow fadeInDown" data-wow-delay='0.2s'>
                 <input type='text' placeholder='SEARCH FOR COURSES                                              MBA, BBA etc' />
               </div>
-              <h1>OR</h1>
-              <div class="header__browse">
+              <h1 class='wow fadeInDown' data-wow-delay='0.3s'>OR</h1>
+              <div class="header__browse wow fadeInDown" data-wow-delay='0.4s'>
                 <select>
                   <option>BROWSE ALL CATEGORIES</option>
                   <option>Post Graduate</option>
@@ -150,7 +153,7 @@
                   <option>BBA</option>
                 </select>
               </div>
-              <button class='header__submit'>&nbsp;SEARCH</button>
+              <button class='header__submit wow fadeInDown' data-wow-delay='0.5s'>&nbsp;SEARCH</button>
             </div>
 
             <div class="header__caret">
@@ -172,9 +175,9 @@
     <!-- FEATURED_COURSES -->
     <div class="featured_courses">
       
-      <h1 class='featured_courses__title'>FEATURED COURSES</h1>
+      <h1 class='featured_courses__title wow fadeIn'>FEATURED COURSES</h1>
 
-      <div class="featured_courses__container">
+      <div class="featured_courses__container wow fadeInLeft">
         <div class="featured_courses__list">
           <ul>
             <li>PGD MBA</li>
@@ -194,16 +197,16 @@
     <!-- INSTITUTIONS_UNIVERSITIES -->
     <div class="ins_uni">
 
-      <h1 class="ins_uni__title">INSTITUTIONS & UNIVERSITIES</h1>
+      <h1 class="ins_uni__title wow fadeIn">INSTITUTIONS & UNIVERSITIES</h1>
       <div class="ins_uni__gallery">
-        <img src="./assets/images/universities_institute_img/aims1.jpg" alt="">
-        <img src="./assets/images/universities_institute_img/iamai3.png" alt="">
-        <img src="./assets/images/universities_institute_img/InternShala2.png" alt="">
-        <img src="./assets/images/universities_institute_img/MeritNation.com_1.png" alt="">
-        <img src="./assets/images/universities_institute_img/NMIMS.png" alt="">
-        <img src="./assets/images/universities_institute_img/Norwich1.png" alt="">
-        <img src="./assets/images/universities_institute_img/whizlabs2.png" alt="">
-        <img src="./assets/images/universities_institute_img/Toppr1.png" alt="">
+        <img class='wow zoomIn' src="./assets/images/universities_institute_img/aims1.jpg" alt="">
+        <img class='wow zoomIn' data-wow-delay='0.2s' src="./assets/images/universities_institute_img/iamai3.png" alt="">
+        <img class='wow zoomIn' data-wow-delay='0.4s' src="./assets/images/universities_institute_img/InternShala2.png" alt="">
+        <img class='wow zoomIn' data-wow-delay='0.6s' src="./assets/images/universities_institute_img/MeritNation.com_1.png" alt="">
+        <img class='wow zoomIn' data-wow-delay='0.8s' src="./assets/images/universities_institute_img/NMIMS.png" alt="">
+        <img class='wow zoomIn' data-wow-delay='1s' src="./assets/images/universities_institute_img/Norwich1.png" alt="">
+        <img class='wow zoomIn' data-wow-delay='1.2s' src="./assets/images/universities_institute_img/whizlabs2.png" alt="">
+        <img class='wow zoomIn' data-wow-delay='1.4s' src="./assets/images/universities_institute_img/Toppr1.png" alt="">
       </div>
 
     </div>
@@ -212,32 +215,32 @@
 
     <!-- FEATURES -->
     <div class="site_features">
-      <h1 class='site_features__title'>OUR FEATURES</h1>
+      <h1 class='site_features__title wow fadeIn'>OUR FEATURES</h1>
       <h3 class='site_features__subtitle'><span>CourseBrothers.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
       <div class="site_features__container">
 
-        <div class="site_features__section">
+        <div class="site_features__section wow zoomIn">
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/library.svg' /></span></div>
           <div class="section_text">
             <h3>COURSES FOR EVERYONE</h3>
             <p>A student can make an informed career decision by choosing from a bouquet of degree, diploma & certificate courses.</p>
           </div>
         </div>
-        <div class="site_features__section">
+        <div class="site_features__section wow zoomIn" data-wow-delay='0.2s'>
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/online.svg' /></span></div>
           <div class="section_text">
             <h3>TOP COURSES BY PROVIDERS</h3>
             <p>A student gets access to more than 100 Indian & International course providers, who offer high quality, credible and industry acceptable education.</p>
           </div>
         </div>
-        <div class="site_features__section">
+        <div class="site_features__section wow zoomIn" data-wow-delay='0.4s'>
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/group.svg' /></span></div>
           <div class="section_text">
             <h3>STRONG STUDENT COMMUNITY</h3>
             <p>We have a strong network of students across geographies. Be a part of this ever-growing student base and benefit from diverse experience and knowledge.</p>
           </div>
         </div>
-        <div class="site_features__section">
+        <div class="site_features__section wow zoomIn" data-wow-delay='0.6s'>
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/work.svg' /></span></div>
           <div class="section_text">
             <h3>GREAT LEARNING EXPERIENCE</h3>
@@ -252,8 +255,8 @@
 
     <!-- TOP_COURSES -->
     <div class="top_courses">
-      <h1 class='top_courses__title'>TOP COURSES</h1>
-      <div class="top_courses__container">
+      <h1 class='top_courses__title wow fadeIn'>TOP COURSES</h1>
+      <div class="top_courses__container wow fadeInLeftBig">
 
         <div class="top_courses__section">
           <div class="section_header">
@@ -328,7 +331,7 @@
 
     <!-- FOOTER -->
     <div class="footer">
-      <div class="footer__container">
+      <div class="footer__container wow zoomIn">
 
         <div class="footer__get_in_touch">
           <h3>GET IN TOUCH</h3>
@@ -386,6 +389,8 @@
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
   </script>
+  <!-- WOW JS -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
   <!-- CUSTOM JS -->
   <script src='./js/custom.js'></script>
 
