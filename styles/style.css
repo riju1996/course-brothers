@@ -78,6 +78,192 @@ body {
   font-weight: 500;
 }
 
+.footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #DB324D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__container {
+  width: 82%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container h3 {
+  color: white;
+  font-weight: 600;
+}
+
+.footer .footer__get_in_touch .touch_contact .contact_phone, .footer__get_in_touch .touch_contact .footer .contact_phone, .footer .footer__get_in_touch .touch_contact .contact_email, .footer__get_in_touch .touch_contact .footer .contact_email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__get_in_touch .touch_contact .contact_phone h4, .footer__get_in_touch .touch_contact .footer .contact_phone h4, .footer .footer__get_in_touch .touch_contact .contact_email h4, .footer__get_in_touch .touch_contact .footer .contact_email h4 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.footer .footer__get_in_touch .touch_contact .contact_phone span, .footer__get_in_touch .touch_contact .footer .contact_phone span, .footer .footer__get_in_touch .touch_contact .contact_email span, .footer__get_in_touch .touch_contact .footer .contact_email span {
+  color: white;
+  font-weight: 100;
+  padding-left: 2rem;
+}
+
+.footer__get_in_touch {
+  border-right: 1px solid white;
+  padding-right: 7rem;
+}
+
+.footer__get_in_touch .touch_contact {
+  margin-top: 4rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer__quick_links {
+  border-right: 1px solid white;
+  padding-right: 7rem;
+}
+
+.footer__quick_links a:link, .footer__quick_links a:visited, .footer__quick_links a:active {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.footer__quick_links .links {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  width: 20vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__newsletter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer__newsletter .newsletter_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__newsletter input[type='email'], .footer__newsletter input[type='text'] {
+  color: white;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+.footer__newsletter input[type='email']::-webkit-input-placeholder, .footer__newsletter input[type='text']::-webkit-input-placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.footer__newsletter input[type='email']:-ms-input-placeholder, .footer__newsletter input[type='text']:-ms-input-placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.footer__newsletter input[type='email']::-ms-input-placeholder, .footer__newsletter input[type='text']::-ms-input-placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.footer__newsletter input[type='email']::placeholder, .footer__newsletter input[type='text']::placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+.footer__newsletter input[type='submit'] {
+  border: 1px solid #DB324D;
+  outline: none;
+  border-radius: 20rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  background-color: white;
+  color: #DB324D;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__newsletter input[type='submit']:hover {
+  background-color: #DB324D;
+  color: white;
+  border: 1px solid white;
+}
+
 .header .contact__num > span, .header .contact__email > span {
   display: -webkit-box;
   display: -ms-flexbox;
