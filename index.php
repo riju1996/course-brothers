@@ -216,15 +216,17 @@
           </div>
           <div class="carousel__container siema">
             
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
+            <a href="./pages/course-detail.php">
+              <div class="carousel__item">
+                <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
+                <div class="carousel__item__sep"></div>
+                <h4 class='carousel__item__name'>MBA in supply chain</h4>
+                <div class="carousel__item__info">
+                  <h4 class='item__price'>Rs 35, 000</h4>
+                  <h4 class='item__duration'>2 YEARS</h4>
+                </div>
               </div>
-            </div>
+            </a>
             
             <div class="carousel__item">
               <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>

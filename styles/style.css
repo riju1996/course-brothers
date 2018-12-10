@@ -424,6 +424,10 @@ body {
           transform: scale(1.1);
 }
 
+.featured_courses__carousel a:link, .featured_courses__carousel a:visited, .featured_courses__carousel a:active {
+  text-decoration: none;
+}
+
 .featured_courses__carousel .carousel__item {
   opacity: 0.8;
   position: relative;
