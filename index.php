@@ -34,6 +34,24 @@
   <!-- MAIN CONTAINER -->
   <div class="main-container">
 
+
+    <!-- FIXED_NAVBAR -->
+    <nav class="navbar--fixed">
+      <div class="navbar--fixed__container">
+        <div class="navbar--fixed__logo">
+          <a href='index.php'><img src='assets\svg\cb-logo.svg' /></a>
+        </div>
+        <div class="navbar--fixed__search">
+          <form>
+            <input type='text' placeholder='SEARCH FOR COURSES                MBA, BBA etc..' />
+            <button>SEARCH</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- /FIXED_NAVBAR -->
+
+
     <!-- HEADER -->
     <div class='header'>
 
@@ -331,7 +349,7 @@
 
     <!-- FOOTER -->
     <div class="footer">
-      <div class="footer__container wow zoomIn">
+      <div class="footer__container wow fadeIn">
 
         <div class="footer__get_in_touch">
           <h3>GET IN TOUCH</h3>

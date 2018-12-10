@@ -1,9 +1,21 @@
 $(document).ready(function() {
 
-  // =====  GSAP Animations =====
-
   // Variables
   $caret = $('.header__caret');
+  $navbarFixed = $('.navbar--fixed');
+
+
+  // Navbar animation on scroll
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 1500) {
+      $navbarFixed.css('top', '0');
+    } else {
+      $navbarFixed.css('top', '-19vh');
+    }
+  });
+
+
+  // =====  GSAP Animations =====
 
   // caretAnimation
   function caretAnim() {
@@ -30,7 +42,7 @@ $(document).ready(function() {
   };
 
 
-  // WOW JS
+  // WOW JS and GSAP Animations start
   window.addEventListener('load', function () { start(); new WOW().init(); });
 
   // Add tooltips
