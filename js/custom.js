@@ -59,8 +59,11 @@ $(document).ready(function() {
     duration: 400
   });
 
-  $('.carousel__button').click(() => {
+  $('.carousel__button .fa-angle-right').click(() => {
     siema.next();
+  });
+  $('.carousel__button .fa-angle-left').click(() => {
+    siema.prev();
   });;
 
 });

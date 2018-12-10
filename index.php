@@ -212,6 +212,7 @@
         <div class="featured_courses__carousel wow fadeInRight">
           <div class="carousel__button">
             <i class="fa fa-angle-left"></i>
+            <i class="fa fa-angle-right"></i>
           </div>
           <div class="carousel__container siema">
             

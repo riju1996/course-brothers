@@ -114,12 +114,23 @@ body {
   width: 70rem;
 }
 
+.featured_courses__carousel .carousel__button {
+  padding-right: 2rem;
+}
+
 .featured_courses__carousel .carousel__button i {
   color: #DB324D;
   font-size: 7rem;
   font-weight: 700;
-  padding-right: 5rem;
   cursor: pointer;
+  margin: 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.featured_courses__carousel .carousel__button i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .featured_courses__carousel .carousel__item {
