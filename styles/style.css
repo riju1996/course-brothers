@@ -91,6 +91,21 @@ body {
   font-weight: 500;
 }
 
+.featured_courses__list .list--active {
+  background-color: white;
+  color: #DB324D;
+}
+
+.featured_courses__list .list--active::after {
+  content: '\203A';
+  color: #DB324D;
+  position: absolute;
+  font-size: 3.3rem;
+  right: 2.8rem;
+  top: 0.7rem;
+  font-weight: 500;
+}
+
 .featured_courses__carousel {
   float: right;
   height: 100%;

@@ -66,6 +66,19 @@
         font-weight: $medium;
       }
     }
+    .list--active {
+      background-color: white;
+      color: $rusty-red;
+      &::after {
+        content: '\203A';
+        color: $rusty-red;
+        position: absolute;
+        font-size: 3.3rem;
+        right: 2.8rem;
+        top: 0.7rem;
+        font-weight: $medium;
+      }
+    }
   }
 
   &__carousel {

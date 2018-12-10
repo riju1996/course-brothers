@@ -64,6 +64,14 @@ $(document).ready(function() {
   });
   $('.carousel__button .fa-angle-left').click(() => {
     siema.prev();
-  });;
+  });
+
+
+  // For making the selected course visible
+  $('.featured_courses__list ul li').first().addClass('list--active');
+  $('.featured_courses__list ul li').click(function() {
+    $('.featured_courses__list ul li').removeClass('list--active');
+    $(this).addClass('list--active');
+  });
 
 });
