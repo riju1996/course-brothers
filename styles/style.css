@@ -798,6 +798,7 @@ body {
 
 .navbar--fixed__search button {
   padding: 1.8rem;
+  outline: none;
   color: white;
   background-color: #DB324D;
   border: none;
