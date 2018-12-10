@@ -18,11 +18,11 @@ body {
 }
 
 .featured_courses__title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: #DB324D;
   text-align: center;
   letter-spacing: 0.4rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 4.5rem;
 }
 
@@ -642,10 +642,10 @@ body {
 }
 
 .ins_uni__title {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   letter-spacing: 0.4rem;
   color: #DB324D;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   padding-top: 4rem;
 }
@@ -799,8 +799,8 @@ body {
 }
 
 .site_features__title {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 2.8rem;
+  font-weight: 700;
   letter-spacing: 0.4rem;
   text-align: center;
   color: white;
@@ -883,8 +883,8 @@ body {
 }
 
 .top_courses__title {
-  font-size: 2.5rem;
-  font-weight: 600;
+  font-size: 2.8rem;
+  font-weight: 700;
   color: #DB324D;
   letter-spacing: 0.4rem;
   text-align: center;
