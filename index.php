@@ -35,6 +35,8 @@
   <div class="main-container">
 
 
+
+
     <!-- FIXED_NAVBAR -->
     <nav class="navbar--fixed">
       <div class="navbar--fixed__container">
@@ -50,6 +52,8 @@
       </div>
     </nav>
     <!-- /FIXED_NAVBAR -->
+
+
 
 
     <!-- HEADER -->
@@ -195,8 +199,8 @@
       
       <h1 class='featured_courses__title wow fadeIn'>FEATURED COURSES</h1>
 
-      <div class="featured_courses__container wow fadeInLeft">
-        <div class="featured_courses__list">
+      <div class="featured_courses__container">
+        <div class="featured_courses__list wow fadeInLeft">
           <ul>
             <li>PGD MBA</li>
             <li>PG COURSES</li>
@@ -205,7 +209,25 @@
             <li>CERTIFICATES</li>
           <ul>
         </div>
-        <!-- TODO: Add the courses carousel with AJAX -->
+        <div class="featured_courses__carousel wow fadeInRight">
+          <div class="carousel__button">
+            <i class="fa fa-angle-left"></i>
+          </div>
+          <div class="carousel__container siema">
+            
+            <div class="carousel__item">
+            </div>
+            <div class="carousel__item">
+            </div>
+            <div class="carousel__item">
+            </div>
+            <div class="carousel__item">
+            </div>
+            <div class="carousel__item">
+            </div>
+
+          </div>
+        </div>
       </div>
 
     </div>
@@ -406,6 +428,10 @@
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
+  </script>
+  <!-- SIEMA CAROUSEL -->
+  <script 
+    src='https://cdn.jsdelivr.net/npm/siema@1.5.1/dist/siema.min.js'>
   </script>
   <!-- WOW JS -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>

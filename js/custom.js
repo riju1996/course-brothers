@@ -51,4 +51,16 @@ $(document).ready(function() {
     maxWidth: '180'
   });
 
+
+  // Courses Carousel
+  let siema = new Siema({
+    selector: '.carousel__container',
+    perPage: 2,
+    duration: 400
+  });
+
+  $('.carousel__button').click(() => {
+    siema.next();
+  });;
+
 });
