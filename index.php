@@ -175,7 +175,9 @@
                   <option>BBA</option>
                 </select>
               </div>
-              <button class='header__submit wow fadeInDown' data-wow-delay='0.5s'>&nbsp;SEARCH</button>
+              <a href="./pages/course-results.php">
+                <button class='header__submit wow fadeInDown' data-wow-delay='0.5s'>&nbsp;SEARCH</button>
+              </a>
             </div>
 
             <div class="header__caret">
