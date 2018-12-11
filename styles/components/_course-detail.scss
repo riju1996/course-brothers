@@ -223,9 +223,11 @@
       color: $light-red;
       font-size: 2rem;
       font-weight: $semiBold;
+      padding-left: 0.2rem;
     }
     &__container {
       display: flex;
+      margin-top: 4rem;
     }
     &__item {
       transition: 0.3s;

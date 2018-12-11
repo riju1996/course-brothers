@@ -299,12 +299,14 @@ body {
   color: #FF8B9C;
   font-size: 2rem;
   font-weight: 600;
+  padding-left: 0.2rem;
 }
 
 .course_detail .related_courses__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 4rem;
 }
 
 .course_detail .related_courses__item {
