@@ -268,7 +268,7 @@ body {
 }
 
 .course_detail__body__main .main_content {
-  width: 330rem;
+  width: 340rem;
   margin-right: 10rem;
   border-bottom: 2px solid #d4d4d4;
 }
@@ -289,6 +289,93 @@ body {
   position: absolute;
   top: -500rem;
   visibility: hidden;
+}
+
+.course_detail .related_courses {
+  padding: 1rem 3rem 3rem 3rem;
+}
+
+.course_detail .related_courses__title {
+  color: #FF8B9C;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.course_detail .related_courses__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.course_detail .related_courses__item {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.9;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(219, 50, 78, 0.6)), to(rgba(219, 50, 78, 0.6))), url("../assets/images/courses_img/ins1.jpg");
+  background: linear-gradient(0deg, rgba(219, 50, 78, 0.6), rgba(219, 50, 78, 0.6)), url("../assets/images/courses_img/ins1.jpg");
+  background-size: cover;
+  width: 28rem;
+  height: 28rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+          box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+  margin-right: 3rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.course_detail .related_courses__item:hover {
+  opacity: 1;
+}
+
+.course_detail .related_courses__item__uni {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.course_detail .related_courses__item__sep {
+  width: 10rem;
+  height: 0.2rem;
+  background-color: white;
+}
+
+.course_detail .related_courses__item__name {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.course_detail .related_courses__item__info {
+  position: absolute;
+  background-color: #DB324D;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 1.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.course_detail .related_courses__item__info__price {
+  font-weight: 500;
+}
+
+.course_detail .related_courses__item__info__duration {
+  font-weight: 500;
+  border-left: 1px solid white;
+  padding-left: 7rem;
 }
 
 .featured_courses {

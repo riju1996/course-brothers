@@ -170,7 +170,30 @@
 
       <!-- RELATED_COURSES -->
       <div class="related_courses">
+        <h2 class='related_courses__title'>RELATED COURSES</h2>
+        <div class="related_courses__container">
 
+          <div class="related_courses__item">
+            <h3 class='related_courses__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
+            <div class="related_courses__item__sep"></div>
+            <h4 class='related_courses__item__name'>MBA in supply chain</h4>
+            <div class="related_courses__item__info">
+              <h4 class='related_courses__item__info__price'>Rs 35, 000</h4>
+              <h4 class='related_courses__item__info__duration'>2 YEARS</h4>
+            </div>
+          </div>
+
+          <div class="related_courses__item">
+            <h3 class='related_courses__item__uni'>ANNAMALAI UNIVERSITY</h3>
+            <div class="related_courses__item__sep"></div>
+            <h4 class='related_courses__item__name'>INTEGRATED MBA BBA IN SUPPLY CHAIN</h4>
+            <div class="related_courses__item__info">
+              <h4 class='related_courses__item__info__price'>Rs 35, 000</h4>
+              <h4 class='related_courses__item__info__duration'>2 YEARS</h4>
+            </div>
+          </div>
+
+        </div>
       </div>
       <!-- /RELATED_COURSES -->
 

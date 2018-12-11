@@ -187,7 +187,7 @@
 
       // Course Detail Body Main Content Styling
       .main_content {
-        width: 330rem;
+        width: 340rem;
         margin-right: 10rem;
         border-bottom: 2px solid rgb(212, 212, 212);
         &__title {
@@ -204,7 +204,7 @@
 
 
 
-      // ETABS
+      // ETABS HIDING
       .etabs {
         position: absolute;
         top: -500rem;
@@ -213,6 +213,75 @@
 
     }
 
+  }
+
+
+  // Related Courses Styling
+  .related_courses {
+    padding: 1rem 3rem 3rem 3rem;
+    &__title {
+      color: $light-red;
+      font-size: 2rem;
+      font-weight: $semiBold;
+    }
+    &__container {
+      display: flex;
+    }
+    &__item {
+      transition: 0.3s;
+      cursor: pointer;
+      opacity: 0.9;
+      background: linear-gradient(0deg, rgba(219, 50, 78, 0.6), rgba(219, 50, 78, 0.6)), url('../assets/images/courses_img/ins1.jpg');
+      background: {
+        size: cover;
+      }
+      width: 28rem;
+      height: 28rem;
+      border-radius: 1rem;
+      box-shadow: $subtle_shadow;
+      margin-right: 3rem;
+      padding: 2rem;
+      position: relative;
+      &:hover {
+        opacity: 1;
+      }
+      &__uni {
+        color: white;
+        font-size: 1.6rem;
+        font-weight: $semiBold;
+      }
+      &__sep {
+        width: 10rem;
+        height: 0.2rem;
+        background-color: white;
+      }
+      &__name {
+        text-transform: uppercase;
+        color: white;
+        font-weight: $semiBold;
+        padding-top: 2rem;
+      }
+      &__info {
+        position: absolute;
+        background-color: $rusty-red;
+        color: white;
+        bottom: 0; left: 0; right: 0;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        display: flex;
+        box-sizing: border-box;
+        padding: 0 1.5rem;
+        justify-content: space-between;
+        &__price {
+          font-weight: $medium;
+        }
+        &__duration {
+          font-weight: $medium;
+          border-left: 1px solid white;
+          padding-left: 7rem;
+        }
+      }
+    }
   }
 
 
