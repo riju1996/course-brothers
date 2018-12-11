@@ -268,6 +268,7 @@ body {
 }
 
 .course_detail__body__main .main_content {
+  width: 330rem;
   margin-right: 10rem;
   border-bottom: 2px solid #d4d4d4;
 }
@@ -282,6 +283,12 @@ body {
   font-size: 1.4rem;
   color: #c0bebe;
   line-height: 1.7rem;
+}
+
+.course_detail__body__main .etabs {
+  position: absolute;
+  top: -500rem;
+  visibility: hidden;
 }
 
 .featured_courses {

@@ -92,25 +92,65 @@
 
         <div class="course_detail__body__nav">
           <ul>
-            <li>OVERVIEW</li>
-            <li>STRUCTURE</li>
-            <li>FEE</li>
-            <li>ELIGIBILITY</li>
+            <li class='tab'>OVERVIEW</li>
+            <li class='tab'>STRUCTURE</li>
+            <li class='tab'>FEE</li>
+            <li class='tab'>ELIGIBILITY</li>
           </ul>
           <button>APPLY NOW</button>
         </div>
         <div class="course_detail__body__main">
-          <div class="main_content">
-            <h3 class='main_content__title'>COURSE OVERVIEW</h3>
-            <p class='main_content__body'>
-              MBA in supply chain management, gives students a customized, industry-centered system
-              which cooperates with organizations known for store network brilliance. We give understudies
-              an excellent interdisciplinary instruction that expands on basic information and joins the most
-              recent in inventory network considering. The vital, cross-useful educational modules takes a
-              coordinated business process perspective of supply chains, including showcasing, sourcing,
-              logistics, operations, and client administration. Understudies associate with and gain from true
-              inventory network pioneers and are a piece of a solid, affectionate group.
-            </p>
+          <div id='tab-container' class="main_content tab-container">
+
+            <ul class='etabs'>
+              <li class='tab'><a class='a1' href="#tabs-overview">OVERVIEW</a></li>
+              <li class='tab'><a class='a2' href="#tabs-structure">STRUCTURE</a></li>
+              <li class='tab'><a class='a3' href="#tabs-fee">FEE</a></li>
+              <li class='tab'><a class='a4' href="#tabs-eligibility">ELIGIBILITY</a></li>
+            </ul>
+
+            <div id="tabs-overview">
+              <h3 class='main_content__title'>COURSE OVERVIEW</h3>
+              <p class='main_content__body'>
+                MBA in supply chain management, gives students a customized, industry-centered system
+                which cooperates with organizations known for store network brilliance. We give understudies
+                an excellent interdisciplinary instruction that expands on basic information and joins the most
+                recent in inventory network considering. The vital, cross-useful educational modules takes a
+                coordinated business process perspective of supply chains, including showcasing, sourcing,
+                logistics, operations, and client administration. Understudies associate with and gain from true
+                inventory network pioneers and are a piece of a solid, affectionate group.
+              </p>
+            </div>
+
+            <div id="tabs-structure">
+              <h3 class='main_content__title'>COURSE STRUCTURE</h3>
+              <p class='main_content__body'>
+                1ST SEMESTER <br><br>
+                Networking and Marketing<br>
+                Supply Chain Basics
+                <br><br><br>
+                2ND SEMESTER <br><br>
+                Marketing Strategies<br>
+                Internet of Things Basics
+              </p>
+            </div>
+
+            <div id="tabs-fee">
+              <h3 class='main_content__title'>COURSE FEE</h3>
+              <p class='main_content__body'>
+                1ST SEMESTER - Rs 4000 <br> 
+                2ND SEMESTER - Rs 5000 <br>
+                3RD SEMESTER - Rs 4400
+              </p>
+            </div>
+
+            <div id="tabs-eligibility">
+              <h3 class='main_content__title'>COURSE ELIGIBILITY</h3>
+              <p class='main_content__body'>
+                Bachelor's Degree
+              </p>
+            </div>
+
           </div>
           <div class="lead_form">
             <div class="lead_form__header"><h5>TALK TO AN EXPERT COUNSELLOR FOR FREE</h5></div>
@@ -155,6 +195,10 @@
   </script>
   <!-- TweenMax -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <!-- EasyTabs -->
+  <script 
+    src='https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js'>
+  </script>
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
@@ -165,4 +209,4 @@
   <script src='../js/courseDetail.js'></script>
 
 </body>
-</html>
+</html> 

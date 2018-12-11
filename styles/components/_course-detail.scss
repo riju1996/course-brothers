@@ -187,6 +187,7 @@
 
       // Course Detail Body Main Content Styling
       .main_content {
+        width: 330rem;
         margin-right: 10rem;
         border-bottom: 2px solid rgb(212, 212, 212);
         &__title {
@@ -199,6 +200,15 @@
           color: rgb(192, 190, 190);
           line-height: 1.7rem;
         }
+      }
+
+
+
+      // ETABS
+      .etabs {
+        position: absolute;
+        top: -500rem;
+        visibility: hidden;
       }
 
     }
