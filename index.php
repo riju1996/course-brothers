@@ -216,7 +216,7 @@
           </div>
           <div class="carousel__container siema">
             
-            <a href="./pages/course-detail.php">
+            <a target='_blank' href="./pages/course-detail.php">
               <div class="carousel__item">
                 <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
                 <div class="carousel__item__sep"></div>
