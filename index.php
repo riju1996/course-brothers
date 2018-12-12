@@ -300,28 +300,28 @@
       <h3 class='site_features__subtitle'><span>CourseBrothers.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
       <div class="site_features__container">
 
-        <div class="site_features__section wow zoomIn">
+        <div class="site_features__section wow fadeIn">
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/library.svg' /></span></div>
           <div class="section_text">
             <h3>COURSES FOR EVERYONE</h3>
             <p>A student can make an informed career decision by choosing from a bouquet of degree, diploma & certificate courses.</p>
           </div>
         </div>
-        <div class="site_features__section wow zoomIn" data-wow-delay='0.2s'>
+        <div class="site_features__section wow fadeIn" data-wow-delay='0.2s'>
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/online.svg' /></span></div>
           <div class="section_text">
             <h3>TOP COURSES BY PROVIDERS</h3>
             <p>A student gets access to more than 100 Indian & International course providers, who offer high quality, credible and industry acceptable education.</p>
           </div>
         </div>
-        <div class="site_features__section wow zoomIn" data-wow-delay='0.4s'>
+        <div class="site_features__section wow fadeIn" data-wow-delay='0.4s'>
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/group.svg' /></span></div>
           <div class="section_text">
             <h3>STRONG STUDENT COMMUNITY</h3>
             <p>We have a strong network of students across geographies. Be a part of this ever-growing student base and benefit from diverse experience and knowledge.</p>
           </div>
         </div>
-        <div class="site_features__section wow zoomIn" data-wow-delay='0.6s'>
+        <div class="site_features__section wow fadeIn" data-wow-delay='0.6s'>
           <div class="section_icon"><span><img src='./assets/svg/Icons/white/work.svg' /></span></div>
           <div class="section_text">
             <h3>GREAT LEARNING EXPERIENCE</h3>
