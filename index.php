@@ -27,7 +27,7 @@
   <!-- CUSTOM CSS -->
   <link rel='stylesheet' href='./styles/style.css' />
 
-  <title>CourseBrothers | One Stop Destination for Learning</title>
+  <title>CourseBrother.com | One Stop Destination for Learning</title>
 </head>
 <body>
   
@@ -94,7 +94,7 @@
             </div>
             <div 
               class="feature tooltip" 
-              title='CourseBrothers.com is not a study center and has no role in admission decisions, 
+              title='CourseBrother.com is not a study center and has no role in admission decisions, 
                     examinations and / or awarding any degree or diploma.'>
               <span>
                 <span class='feature__text'>
@@ -106,7 +106,7 @@
             </div>
             <div 
               class="feature tooltip" 
-              title='CourseBrothers.com charges no extra fee. No discount is offered by the course provider of any of the courses listed.'>
+              title='CourseBrother.com charges no extra fee. No discount is offered by the course provider of any of the courses listed.'>
               <span>
                 <span class='feature__text'>
                   <span>GENUINE</span>

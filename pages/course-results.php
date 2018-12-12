@@ -21,7 +21,7 @@
   <!-- CUSTOM CSS -->
   <link rel='stylesheet' href='../styles/style.css' />
 
-  <title>CourseBrothers | One Stop Destination for Learning</title>
+  <title>CourseBrother.com | One Stop Destination for Learning</title>
 </head>
 <body>
   
