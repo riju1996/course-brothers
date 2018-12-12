@@ -62,6 +62,16 @@
             <h4>2 YEARS</h4>
             <h5>ONLINE LEARNING</h5>
           </div>
+          <div class="detail__info__payment">
+            <div class="detail__info__payment__onetime">
+              <h4>Rs 35, 000</h4>
+              <h4>ONE TIME PAYMENT</h4>
+            </div>
+            <div class="detail__info__payment__annual">
+              <h4>Rs 17, 000</h4>
+              <h4>ANNUAL PAYMENT</h4>
+            </div>
+          </div>
         </div>
         <div class="detail__img">
           <img src='../assets/images/institute_img/assam.jpg' />

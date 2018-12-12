@@ -89,8 +89,56 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   border-left: 2px solid #FF8B9C;
-  padding-left: 2.6rem;
-  margin-right: 6rem;
+  padding-left: 2.5rem;
+  margin-right: 16rem;
+}
+
+.course_detail__header .detail__info .detail__info__payment__onetime, .course_detail__header .detail__info .detail__info__payment__annual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: transparent;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.course_detail__header .detail__info .detail__info__payment__onetime h4, .course_detail__header .detail__info .detail__info__payment__annual h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.course_detail__header .detail__info .detail__info__payment__onetime h4:nth-child(1), .course_detail__header .detail__info .detail__info__payment__annual h4:nth-child(1) {
+  color: #DB324D;
+  background-color: white;
+  padding: 0.6rem 1rem;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+}
+
+.course_detail__header .detail__info .detail__info__payment__onetime h4:nth-child(2), .course_detail__header .detail__info .detail__info__payment__annual h4:nth-child(2) {
+  color: white;
+  background-color: #DB324D;
+  padding: 0.6rem 1rem;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+          box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+}
+
+.course_detail__header .detail__info__payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.course_detail__header .detail__info__payment__annual {
+  margin-left: 3rem;
 }
 
 .course_detail__header .detail__img img {

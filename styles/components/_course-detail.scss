@@ -57,8 +57,48 @@
           font-size: 1.8rem;
           font-weight: $medium;
           border-left: 2px solid $light-red;
-          padding-left: 2.6rem;
-          margin-right: 6rem;
+          padding-left: 2.5rem;
+          margin-right: 16rem;
+        }
+      }
+
+
+      // Payment extend
+      %payment {
+        display: flex;
+        background-color: transparent;
+        align-items: center;
+        h4 {
+          margin: 0;
+          font-weight: $semiBold;
+          font-size: 1.2rem;
+          &:nth-child(1) {
+            color: $rusty-red;
+            background-color: white;
+            padding: 0.6rem 1rem;
+            border-top-left-radius: 0.4rem;
+            border-bottom-left-radius: 0.4rem;
+          }
+          &:nth-child(2) {
+            color: white;
+            background-color: $rusty-red;
+            padding: 0.6rem 1rem;
+            border-top-right-radius: 0.4rem;
+            border-bottom-right-radius: 0.4rem;
+            box-shadow: $subtle_shadow;
+          }
+        }
+      }
+
+      &__payment {
+        display: flex;
+        flex-direction: row;
+        &__onetime {
+          @extend %payment;
+        }
+        &__annual {
+          @extend %payment;
+          margin-left: 3rem;
         }
       }
     }
