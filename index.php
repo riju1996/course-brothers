@@ -208,7 +208,7 @@
             <li>PG COURSES</li>
             <li>UG COURSES</li>
             <li>DIPLOMA</li>
-            <li>CERTIFICATES</li>
+            <li>CERTIFICATE COURSES</li>
           <ul>
         </div>
         <div class="featured_courses__carousel wow fadeInRight">

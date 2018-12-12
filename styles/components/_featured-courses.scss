@@ -38,7 +38,7 @@
       position: relative;
       background-color: $rusty-red;
       color: white;
-      padding: 2.2rem 1.8rem 1.8rem 5rem;
+      padding: 2.2rem 0rem 1.8rem 3rem;
       font-size: 1.4rem;
       font-weight: $medium;
       transition: all 0.2s ease-out;
@@ -48,7 +48,7 @@
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
       }
-      &:nth-child(5) {
+      &:nth-last-child(2) {
         border-bottom-left-radius: 1rem;
         border-bottom-right-radius: 1rem;
       }

@@ -677,7 +677,7 @@ body {
   position: relative;
   background-color: #DB324D;
   color: white;
-  padding: 2.2rem 1.8rem 1.8rem 5rem;
+  padding: 2.2rem 0rem 1.8rem 3rem;
   font-size: 1.4rem;
   font-weight: 500;
   -webkit-transition: all 0.2s ease-out;
@@ -691,7 +691,7 @@ body {
   border-top-right-radius: 1rem;
 }
 
-.featured_courses__list li:nth-child(5) {
+.featured_courses__list li:nth-last-child(2) {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
