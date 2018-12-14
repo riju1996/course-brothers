@@ -27,7 +27,7 @@
   
   
   <!-- MAIN_CONTAINER -->
-  <div class="main-container">
+  <div class="main-container main_container__results">
 
 
     <!-- NAVBAR_SCROLL -->
@@ -47,14 +47,72 @@
         <h3>FOUND <b>24</b> RESULT(S) FOR <b>MBA</b> </h3>
       </div>
 
+
+
+      <!-- COURSE_RESULTS_REFINED_SEARCH -->
       <div class="course_results__refined_search">
 
         <h3 class='course_results__refined_search__title'>REFINED SEARCH</h3>
+        <button class='course_results__refined_search__filter'>
+          <i class="fa fa-filter"></i>
+          filter
+        </button>
         <div class="course_results__refined_search__button">
           <i class="fa fa-angle-down"></i>
         </div>
-        <!-- TODO: Add the refined search section -->
+        
+        <div class="course_results__refined_search__body">
+
+          <div class="course_results__refined_search__body__option">
+            <h5>institute</h5>
+            <div class="course_results__refined_search__body__option__options">
+              <span><input type="checkbox"> ANNAMALAI UNIVERSITY</span>
+              <span><input type="checkbox"> ASSAM DOWNTOWN UNIVERSITY</span>
+              <span><input type="checkbox"> UPES</span> 
+            </div>
+          </div>
+
+          <div class="course_results__refined_search__body__option">
+            <h5>course fee</h5>
+            <div class="course_results__refined_search__body__option__options">
+              <span><input type="checkbox"> Rs 25000 - Rs 30000</span>
+              <span><input type="checkbox"> Rs 20000 - Rs 25000</span>
+              <span><input type="checkbox"> Rs 14000 - Rs 20000</span> 
+            </div>
+          </div>
+
+          <div class="course_results__refined_search__body__option">
+            <h5>specialisation</h5>
+            <div class="course_results__refined_search__body__option__options">
+              <span><input type="checkbox"> finance</span>
+              <span><input type="checkbox"> human resource</span>
+              <span><input type="checkbox"> marketing</span> 
+            </div>
+          </div>
+
+          <div class="course_results__refined_search__body__option">
+            <h5>affiliation</h5>
+            <div class="course_results__refined_search__body__option__options">
+              <span><input type="checkbox"> ugc</span>
+              <span><input type="checkbox"> aicte</span>
+              <span><input type="checkbox"> iap</span> 
+            </div>
+          </div>
+
+          <div class="course_results__refined_search__body__option">
+            <h5>institute</h5>
+            <div class="course_results__refined_search__body__option__options">
+              <span><input type="checkbox"> ANNAMALAI UNIVERSITY</span>
+              <span><input type="checkbox"> ASSAM DOWNTOWN UNIVERSITY</span>
+              <span><input type="checkbox"> UPES</span> 
+            </div>
+          </div>
+
+        </div>
+
       </div>
+      <!-- /COURSE_RESULTS_REFINED_SEARCH -->
+
 
 
       <!-- COURSE_RESULTS_SYSTEM -->
@@ -160,7 +218,7 @@
   <!-- WOW JS -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
   <!-- CUSTOM JS -->
-  <script src='../js/courseDetail.js'></script>
+  <script src='../js/courseResults.js'></script>
 
 </body>
 </html> 

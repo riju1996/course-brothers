@@ -1,3 +1,12 @@
+// For setting the magnifying glass bg
+.main_container__results {
+  background: url('../assets/svg/course-results-bg.svg');
+  background: {
+    size: cover;
+    attachment: fixed;
+  }
+}
+
 // Course results styling
 .course_results {
 
@@ -13,10 +22,13 @@
       color: rgb(185, 185, 185);
       font-weight: $semiBold;
       margin: 0;
+      text-transform: uppercase;
     }
   }
 
   &__refined_search {
+
+    position: relative;
     width: 100%;
     padding: 1.5rem 3.5rem;
     box-sizing: border-box;
@@ -24,17 +36,110 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     &__title {
       margin: 0;
       color: white;
       font-weight: $semiBold;
     }
+
+    &__filter {
+      border: none;
+      position: absolute;
+      right: 10rem;
+      box-shadow: $subtle_shadow;
+      border-radius: 10rem;
+      background-color: white;
+      color: $rusty-red;
+      padding: 0.8rem 2rem;
+      text-transform: uppercase;
+      font-size: 1.3rem;
+      font-weight: $semiBold;
+      cursor: pointer;
+      opacity: 0;
+      z-index: -1;
+      transition: 0.4s;
+      i {
+        padding-right: 0.3rem;
+        transition: 0.3s;
+      }
+      &:hover i {
+        font-size: 1.4rem;
+      }
+    }
+
+    .filter--active {
+      opacity: 1;
+      z-index: 3;
+    }
+
     &__button i {
       color: white;
       font-size: 3.5rem;
       font-weight: $bold;
       cursor: pointer;
+      transition: 0.3s cubic-bezier(0.19, 1, 0.22, 1);
     }
+
+    .button--active {
+      transform: rotate(180deg);
+    }
+
+    &__body {
+
+      display: flex;
+      position: absolute;
+      justify-content: space-between;
+      opacity: 0;
+      transition: 0.4s;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 30rem;
+      background-color: transparentize($rusty-red, 0.1);
+      top: 6.5rem;
+      left: 0;
+      z-index: -1;
+      box-sizing: border-box;
+      padding: 3.5rem;
+
+      &__option {
+
+        width: 25%;
+        height: 50%;
+
+        h5 {
+          text-transform: uppercase;
+          color: white;
+          font-weight: $medium;
+          letter-spacing: 0.1rem;
+          margin: 0;
+        }
+
+        &__options {
+          margin-top: 1rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          color: white;
+          font-size: 1rem;
+          span {
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            margin-top: 0.3rem;
+            input { margin-right: 1rem; cursor: pointer; }
+          }
+        }
+
+      }
+
+    }
+
+    .body--active {
+      opacity: 1;
+      z-index: 3;
+    }
+
   }
 
 
@@ -42,7 +147,7 @@
   &__system {
 
     display: flex;
-    box-shadow: $subtle_shadow;
+    border: 1px solid $rusty-red;
     width: 8rem;
     height: 3.5rem;
     margin: 2rem 3.5rem;
@@ -105,7 +210,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: $rusty-red;
+      background: linear-gradient(0deg, rgba(219, 50, 77, 0.9), rgba(219, 50, 77, 0.9)), url('../assets/images/header-bg.jpg');
+      background: {
+        size: cover;
+        position: center;
+      }
       border-top-left-radius: 1rem;
       border-bottom-left-radius: 1rem;
       padding: 2rem;

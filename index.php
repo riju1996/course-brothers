@@ -202,20 +202,22 @@
       <h1 class='featured_courses__title wow fadeIn'>FEATURED COURSES</h1>
 
       <div class="featured_courses__container">
+
         <div class="featured_courses__list wow fadeInLeft">
           <ul>
             <li>PGD MBA</li>
             <li>PG COURSES</li>
             <li>UG COURSES</li>
             <li>DIPLOMA</li>
-            <li>CERTIFICATE COURSES</li>
           <ul>
         </div>
+
         <div class="featured_courses__carousel wow fadeInRight">
           <div class="carousel__button">
             <i class="fa fa-angle-left"></i>
             <i class="fa fa-angle-right"></i>
           </div>
+
           <div class="carousel__container siema">
             
             <a target='_blank' href="./pages/course-detail.php">
@@ -231,34 +233,7 @@
             </a>
             
             <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
+              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
               <div class="carousel__item__sep"></div>
               <h4 class='carousel__item__name'>MBA in supply chain</h4>
               <div class="carousel__item__info">
@@ -267,7 +242,38 @@
               </div>
             </div>
 
+            <div class="carousel__item">
+              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
+              <div class="carousel__item__sep"></div>
+              <h4 class='carousel__item__name'>MBA in supply chain</h4>
+              <div class="carousel__item__info">
+                <h4 class='item__price'>Rs 35, 000</h4>
+                <h4 class='item__duration'>2 YEARS</h4>
+              </div>
+            </div>
+
+            <div class="carousel__item">
+              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
+              <div class="carousel__item__sep"></div>
+              <h4 class='carousel__item__name'>MBA in supply chain</h4>
+              <div class="carousel__item__info">
+                <h4 class='item__price'>Rs 35, 000</h4>
+                <h4 class='item__duration'>2 YEARS</h4>
+              </div>
+            </div>
+
+            <div class="carousel__item">
+              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
+              <div class="carousel__item__sep"></div>
+              <h4 class='carousel__item__name'>MBA in supply chain</h4>
+              <div class="carousel__item__info">
+                <h4 class='item__price'>Rs 35, 000</h4>
+                <h4 class='item__duration'>2 YEARS</h4>
+              </div>
+            </div>
+            
           </div>
+
         </div>
       </div>
 

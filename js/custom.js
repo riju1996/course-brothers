@@ -43,7 +43,52 @@ $(document).ready(function() {
 
 
   // WOW JS and GSAP Animations start
-  window.addEventListener('load', function () { start(); new WOW().init(); });
+  window.addEventListener('load', function () { 
+
+    start(); 
+    new WOW().init();
+
+    // const carousels = document.querySelectorAll('.carousel__container');
+    // const carouselContainer = document.querySelector('.featured_courses__carousel');
+    // carousels.forEach((item, index) => {
+    //   if (index === 0) {
+    //     item.style.display = 'block';
+    //   } else {
+    //     item.style.display = 'none';
+    //   }
+    // });
+
+    // Courses Carousel
+    let siema = new Siema({
+      perPage: 2,
+      duration: 400
+    });
+
+    $('.carousel__button .fa-angle-right').click(() => {
+      siema.next();
+    });
+    $('.carousel__button .fa-angle-left').click(() => {
+      siema.prev();
+    });
+
+
+    // function carouselDisplayer(itemIndex) {
+    //   carousels.forEach(item => {
+    //     item.style.opacity = 0;
+    //     setTimeout(() => { item.style.display = 'none'; }, 400);
+    //   });
+    //   carousels[itemIndex].style.opacity = 1;
+    //   setTimeout(() => { carousels[itemIndex].style.display = 'block'; }, 400);
+    // };
+
+    // const featuredCourses = document.querySelectorAll('.featured_courses__list ul li');
+    // featuredCourses.forEach((course, index) => {
+    //   course.addEventListener('click', () => {
+    //     carouselDisplayer(index);
+    //   });
+    // });
+
+  });
 
   // Add tooltips
   $('.tooltip').tooltipster({
@@ -52,19 +97,7 @@ $(document).ready(function() {
   });
 
 
-  // Courses Carousel
-  let siema = new Siema({
-    selector: '.carousel__container',
-    perPage: 2,
-    duration: 400
-  });
-
-  $('.carousel__button .fa-angle-right').click(() => {
-    siema.next();
-  });
-  $('.carousel__button .fa-angle-left').click(() => {
-    siema.prev();
-  });
+  
 
 
   // For making the selected course visible
