@@ -18,8 +18,8 @@
         <div class="footer__quick_links">
           <h3>QUICK LINKS</h3>
           <div class="links">
-            <a href="#">HOME</a>
-            <a href="#">CONTACT US</a>
+            <a href="../index.php">HOME</a>
+            <a href="./pages/contact-us.php">CONTACT US</a>
             <a href="#">COURSES</a>
             <a href="#">SERVICES</a>
           </div>
