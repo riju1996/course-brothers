@@ -52,7 +52,9 @@
             </div>
             <div class="contact_us__meet__container__info__item">
               <div class='contact_us__meet__container__info__item__container'>
-                <img src='..\assets\svg\Icons\white\mail-black-envelope-symbol.svg' />
+                <a href='mailto:shyam.d@gmail.com'>
+                  <img src='..\assets\svg\Icons\white\mail-black-envelope-symbol.svg' />
+                </a>
                 <h4>shyam.d@gmail.com</h4>
               </div>
             </div>
@@ -73,7 +75,7 @@
           <h3 class='contact_us__ping__container__title'>ping us</h3>
           <h6>hello,</h6>
           <form>
-            <p>i am <input type='text' placeholder='ankur gupta' required />, hailing from <input type='text' placeholder='chennai' required />, and i would like to discuss about <input type='text' placeholder='mba' required /> course. my email address is <input type='email' placeholder='example@ex.com' required />, and my phone number is <input type='text' placeholder='+91 7114365211' required />. thank you.
+            <p>i am <input type='text' placeholder='your full name' required />, hailing from <input type='text' placeholder='your city' required />, and i would like to discuss about <input type='text' placeholder='course name' required /> course. my email address is <input type='email' placeholder='your email' required />, and my phone number is <input type='text' placeholder='your ph. no.' required />. thank you.
             </p>
             <p>
               <input type='checkbox' required /> I authorize CourseBrother.com representative to contact me via phone and/or email. This will override registry on DND/NDNC
