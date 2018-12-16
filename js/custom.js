@@ -107,4 +107,42 @@ $(document).ready(function() {
     $(this).addClass('list--active');
   });
 
+
+
+  // For getting newsletter popups every 10 seconds
+  let newsInterval = null;
+
+  function showNewsletter() {
+    $('.newsletter_popup__backdrop').addClass('newsletter_popup__backdrop--active');
+    $('.newsletter_popup').css({
+      'transform': 'scale(1) translate(-50%, -50%)',
+      'opacity': '1'
+    });
+  };
+
+  function hideNewsletter() {
+    $('.newsletter_popup__backdrop').removeClass('newsletter_popup__backdrop--active');
+    $('.newsletter_popup').css({
+      'transform': 'scale(0) translate(-50%, -50%)',
+      'opacity': '0'
+    });
+  }
+
+  newsInterval = setInterval(() => {
+    showNewsletter();
+  }, 10000);
+
+  $('.newsletter_popup__main__close').click(function() {
+    hideNewsletter();
+    clearInterval(newsInterval);
+    newsInterval = setInterval(() => {
+      showNewsletter();
+    }, 10000);
+  });
+
+  $(".newsletter_popup__main__form div").click(function() {
+    hideNewsletter();
+    clearInterval(newsInterval);
+  });
+
 });

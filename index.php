@@ -35,6 +35,9 @@
   <div class="main-container">
 
 
+    <!-- NEWSLETTER_POPUP -->
+    <?php include 'includes/newsletter-popup.php'; ?>
+    <!-- NEWSLETTER_POPUP -->
 
 
     <!-- FIXED_NAVBAR -->
