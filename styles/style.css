@@ -1668,7 +1668,7 @@ body {
 .header {
   position: relative;
   width: 100%;
-  height: 55vh;
+  height: 50vh;
   margin-top: 14rem;
   background-size: cover;
   background-position: 50%;
@@ -1783,7 +1783,7 @@ body {
 
 .header__carousel__container .siema div {
   width: 100%;
-  height: 55vh;
+  height: 50vh;
   background-size: cover;
   background-position: center;
 }
@@ -1808,7 +1808,7 @@ body {
   font-weight: 700;
   font-size: 1.8rem;
   text-transform: uppercase;
-  padding-top: 1.6rem;
+  padding-top: 3rem;
 }
 
 .uni_and_col .rslides {
