@@ -17,6 +17,9 @@
 
   <!-- jQuery Plugins -->
 
+  <!-- RESPONSIVE SLIDES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.css" />
+
   <!-- TOOLTIPSTER -->
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/tooltipster.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/css/themes/tooltipster-shadow.min.css' />
@@ -41,7 +44,7 @@
 
 
     <!-- FIXED_NAVBAR -->
-    <nav class="navbar--fixed">
+    <!-- <nav class="navbar--fixed">
       <div class="navbar--fixed__container">
         <div class="navbar--fixed__logo">
           <a href='index.php'><img src='assets\svg\cb-logo.svg' /></a>
@@ -53,150 +56,181 @@
           </form>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <!-- /FIXED_NAVBAR -->
 
 
+    <!-- NAVBAR_MAIN -->
+    <div class='navbar_main'>
+
+      <div class="navbar_main__appendix">
+        <div class="navbar_main__appendix__cart">
+          <h5>cart</h5>
+          <span><img src="./assets/svg/Icons/white/shopping-cart.svg" /></span>
+        </div>
+      </div>
+
+      <div class="navbar_main__header">
+
+        <div class='navbar_main__header__container'>
+
+          <div class="navbar_main__header__logo">
+            <img src="./assets/svg/cb-logo.svg" />
+          </div>
+
+          <div class="navbar_main__header__search">
+            <form>
+              <input type="text" placeholder='search for courses     eg: mba, bba' />
+              <input type="submit" value="LET'S GO!">
+            </form>
+          </div>
+
+          <div class="navbar_main__header__contact">
+
+            <div class="navbar_main__header__contact__item">
+              <h4>+91 7044356122</h4>
+              <span><img src="./assets/svg/Icons/white/phone-book.svg" /></span>
+            </div>
+
+            <div class="navbar_main__header__contact__item">
+              <h4>shyam.d@gmail.com</h4>
+              <span class='tooltip' title='Click to open in your default email application'>
+                <a href='mailto:shyam.d@gmail.com'><img src="./assets/svg/Icons/white/mail-black-envelope-symbol.svg" /></a>
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="navbar_main__courses">
+        <div class="navbar_main__courses__container">
+
+          <div class="navbar_main__courses__item">
+            <h3>all colleges</h3>
+            <span><i class="fa fa-angle-down"></i></span>
+          </div>
+
+          <div class="navbar_main__courses__item">
+            <h3>pg courses</h3>
+            <span><i class="fa fa-angle-down"></i></span>
+          </div>
+
+          <div class="navbar_main__courses__item">
+            <h3>ug courses</h3>
+            <span><i class="fa fa-angle-down"></i></span>
+          </div>
+
+          <div class="navbar_main__courses__item">
+            <h3>diploma</h3>
+            <span><i class="fa fa-angle-down"></i></span>
+          </div>
+
+          <div class="navbar_main__courses__item">
+            <h3>certificate</h3>
+            <span><i class="fa fa-angle-down"></i></span>
+          </div>
+          
+
+        </div>
+      </div>
+
+    </div>
+    <!-- /NAVBAR_MAIN -->
 
 
     <!-- HEADER -->
-    <div class='header'>
+    <div class="header">
 
-      <!-- HEADER_CONTACT -->
-      <div class='header__contact'>
-        <div class="header__contact__container">
-          
-          <div class="contact wow fadeInLeft">
-            <div class="contact__num">
-              <span>
-                <img src='assets\svg\Icons\white\phone-book.svg' />
-                <span>+91 7044356122</span>
-              </span>
-            </div>
-            <div class="contact__email">
-              <span>
-                <a class='tooltip' title='Click to open in your default email application' href='mailto:shyam.d@gmail.com'>
-                  <img src='assets\svg\Icons\white\mail-black-envelope-symbol.svg' />
-                </a>
-                <span>shyam.d@gmail.com</span>
-              </span>
-            </div>
+      <div class="header__overlay">
+        <div class="header__overlay__icons">
+
+          <div class="header__overlay__icons__item">
+            <h5>credible institutes</h5>
+            <span class='tooltip' title='For formal education courses, check the status of the listed universities on the UGC DEB website. https://www.ugc.ac.in/deb/'>
+              <img src="./assets/svg/Icons/white/apartments.svg" />
+            </span>
           </div>
 
-          <div class="features wow fadeInRight">
-            <div 
-                class="feature tooltip" 
-                title='For formal education courses, check the status of the listed universities on the UGC DEB website. https://www.ugc.ac.in/deb/'>
-              <span>
-                <span class='feature__text'>
-                  <span>CREDIBLE</span>
-                  <span>INSTITUTES</span>
-                </span>
-                <img src='assets\svg\Icons\white\apartments.svg' />
-              </span>
-            </div>
-            <div 
-              class="feature tooltip" 
-              title='CourseBrother.com is not a study center and has no role in admission decisions, 
-                    examinations and / or awarding any degree or diploma.'>
-              <span>
-                <span class='feature__text'>
-                  <span>TRANSPARENT</span>
-                  <span>INFORMATION</span>
-                </span>
-                <img src='assets\svg\Icons\white\information.svg' />
-              </span>
-            </div>
-            <div 
-              class="feature tooltip" 
-              title='CourseBrother.com charges no extra fee. No discount is offered by the course provider of any of the courses listed.'>
-              <span>
-                <span class='feature__text'>
-                  <span>GENUINE</span>
-                  <span>FEE STRUCTURE</span>
-                </span>
-                <img src='assets\svg\Icons\white\give-money.svg' />
-              </span>
-            </div>
-            <div 
-              class="feature tooltip" 
-              title='Get expert and dedicated counselling support to make an informed education decision.'>
-              <span>
-                <span class='feature__text'>
-                  <span>COUNSELLING</span>
-                  <span>SUPPORT</span>
-                </span>
-                <img src='assets\svg\Icons\white\phone-receiver.svg' />
-              </span>
-            </div>
-            <div 
-              class="feature tooltip" 
-              title='Study material is provided by the respective course providers.'>
-              <span>
-                <span class='feature__text'>
-                  <span>STUDY</span>
-                  <span>MATERIAL</span>
-                </span>
-                <img src='assets\svg\Icons\white\books-stack-of-three.svg' />
-              </span>
-            </div>
+          <div class="header__overlay__icons__item">
+            <h5>transparent information</h5>
+            <span class='tooltip' title='CourseBrother.com is not a study center and has no role in admission decisions, 
+              examinations and / or awarding any degree or diploma'>
+              <img src="./assets/svg/Icons/white/information.svg" />
+            </span>
+          </div>
+
+          <div class="header__overlay__icons__item">
+            <h5>genuine fee</h5>
+            <span class='tooltip' title='CourseBrother.com charges no extra fee. No discount is offered by the course provider of any of the courses listed'>
+              <img src="./assets/svg/Icons/white/give-money.svg" />
+            </span>
+          </div>
+
+          <div class="header__overlay__icons__item">
+            <h5>counselling support</h5>
+            <span class='tooltip' title='Get expert and dedicated counselling support to make an informed education decision'>
+              <img src="./assets/svg/Icons/white/phone-receiver.svg" />
+            </span>
+          </div>
+
+          <div class="header__overlay__icons__item">
+            <h5>study material</h5>
+            <span class='tooltip' title='Study material is provided by the respective course providers'>
+              <img src="./assets/svg/Icons/white/books-stack-of-three.svg" />
+            </span>
           </div>
 
         </div>
       </div>
-      <!-- /HEADER_CONTACT -->
 
-      <!-- MAIN_HEADER -->
-      <div class="header__main">
-
-        <!-- HEADER_CONTAINER -->
-        <div class="header__container">
-
-          <div class="header__logo">
-            <a href='index.php'><img src='assets\svg\cb-logo.svg' /></a>
+      <div class="header__carousel">
+        <div class="header__carousel__container">
+          <div class="header__carousel__buttons">
+            <i class="fa fa-angle-left"></i>
+            <i class="fa fa-angle-right"></i>
           </div>
+          <div class="siema">
 
-          <div class="header__content">
-            <h1 class='header__title wow fadeInDown'>Which course are you looking for?</h1>
-
-            <div class="header__form">
-              <div class="header__search wow fadeInDown" data-wow-delay='0.2s'>
-                <input type='text' placeholder='SEARCH FOR COURSES                                              MBA, BBA etc' />
-              </div>
-              <h1 class='wow fadeInDown' data-wow-delay='0.3s'>OR</h1>
-              <div class="header__browse wow fadeInDown" data-wow-delay='0.4s'>
-                <select>
-                  <option>BROWSE ALL CATEGORIES</option>
-                  <option>Post Graduate</option>
-                  <option>Under Graduate</option>
-                  <option>Diploma</option>
-                </select>
-                <select>
-                  <option>PLEASE SELECT A PROGRAM</option>
-                  <option>Marketing</option>
-                  <option>MBA</option>
-                  <option>BBA</option>
-                </select>
-              </div>
-              <a href="./pages/course-results.php">
-                <button class='header__submit wow fadeInDown' data-wow-delay='0.5s'>&nbsp;SEARCH</button>
-              </a>
-            </div>
-
-            <div class="header__caret">
-              <i class="fa fa-angle-down"></i>
-            </div>
+            <div style='background-image: url("./assets/images/about-bg.jpg")'></div>
+            <div style='background-image: url("./assets/images/about-founder-bg.jpg")'></div>
+            <div style='background-image: url("./assets/images/contact-bg.jpg")'></div>
+            <div style='background-image: url("./assets/images/about-founder-bg.jpg")'></div>
 
           </div>
-
         </div>
-        <!-- /HEADER_CONTAINER -->
-
       </div>
-      <!-- /MAIN_HEADER -->
 
     </div>
     <!-- /HEADER -->
+
+
+    <!-- UNIVERSITIES_COLLEGES -->
+    <div class="uni_and_col">
+
+      <div class="uni_and_col__title">trusted by 10+ universities & colleges</div>
+        
+      <ul class="rslides">
+        <li>
+          <img src="./assets/images/universities_institute_img/aims1.jpg" />
+          <img src="./assets/images/universities_institute_img/iamai3.png" />
+          <img src="./assets/images/universities_institute_img/InternShala2.png" />
+          <img src="./assets/images/universities_institute_img/NMIMS.png" />
+          <img src="./assets/images/universities_institute_img/whizlabs2.png" />
+        </li>
+        <li>
+          <img src="./assets/images/universities_institute_img/toppr2.jpg" />
+          <img src="./assets/images/universities_institute_img/whizlabs2.png" />
+          <img src="./assets/images/universities_institute_img/Norwich1.png" />
+          <img src="./assets/images/universities_institute_img/aims1.jpg" />
+          <img src="./assets/images/universities_institute_img/iamai3.png" />
+        </li>
+      </ul>
+
+    </div>
+    <!-- /UNIVERSITIES_COLLEGES -->
 
 
     <!-- FEATURED_COURSES -->
@@ -282,25 +316,6 @@
 
     </div>
     <!-- /FEATURED_COURSES -->
-
-    
-    <!-- INSTITUTIONS_UNIVERSITIES -->
-    <div class="ins_uni">
-
-      <h1 class="ins_uni__title wow fadeIn">INSTITUTIONS & UNIVERSITIES</h1>
-      <div class="ins_uni__gallery">
-        <img class='wow zoomIn' src="./assets/images/universities_institute_img/aims1.jpg" alt="">
-        <img class='wow zoomIn' data-wow-delay='0.2s' src="./assets/images/universities_institute_img/iamai3.png" alt="">
-        <img class='wow zoomIn' data-wow-delay='0.4s' src="./assets/images/universities_institute_img/InternShala2.png" alt="">
-        <img class='wow zoomIn' data-wow-delay='0.6s' src="./assets/images/universities_institute_img/MeritNation.com_1.png" alt="">
-        <img class='wow zoomIn' data-wow-delay='0.8s' src="./assets/images/universities_institute_img/NMIMS.png" alt="">
-        <img class='wow zoomIn' data-wow-delay='1s' src="./assets/images/universities_institute_img/Norwich1.png" alt="">
-        <img class='wow zoomIn' data-wow-delay='1.2s' src="./assets/images/universities_institute_img/whizlabs2.png" alt="">
-        <img class='wow zoomIn' data-wow-delay='1.4s' src="./assets/images/universities_institute_img/Toppr1.png" alt="">
-      </div>
-
-    </div>
-    <!-- /INSTITUTIONS_UNIVERSITIES -->
 
 
     <!-- FEATURES -->
@@ -439,6 +454,10 @@
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
+  </script>
+  <!-- RESPONSIVE SLIDES -->
+  <script 
+    src='https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js'>
   </script>
   <!-- SIEMA CAROUSEL -->
   <script 

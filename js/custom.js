@@ -6,13 +6,13 @@ $(document).ready(function() {
 
 
   // Navbar animation on scroll
-  window.addEventListener('scroll', () => {
-    if (window.pageYOffset > 1500) {
-      $navbarFixed.css('top', '0');
-    } else {
-      $navbarFixed.css('top', '-19vh');
-    }
-  });
+  // window.addEventListener('scroll', () => {
+  //   if (window.pageYOffset > 1500) {
+  //     $navbarFixed.css('top', '0');
+  //   } else {
+  //     $navbarFixed.css('top', '-19vh');
+  //   }
+  // });
 
 
   // =====  GSAP Animations =====
@@ -58,8 +58,31 @@ $(document).ready(function() {
     //   }
     // });
 
+
+    // Header Carousel
+    let headerCarousel = document.querySelectorAll('.siema');
+    let headerSiema = new Siema({
+      selector: headerCarousel[0],
+      draggable: false,
+      loop: true,
+      duration: 400
+    });
+
+    $('.header__carousel__buttons .fa-angle-right').click(() => {
+      headerSiema.next();
+    });
+    $('.header__carousel__buttons .fa-angle-left').click(() => {
+      headerSiema.prev();
+    });
+
+    setInterval(() => {
+      headerSiema.next();
+    }, 6000);
+
+
     // Courses Carousel
     let siema = new Siema({
+      selector: headerCarousel[1],
       perPage: 2,
       duration: 400
     });
@@ -97,7 +120,12 @@ $(document).ready(function() {
   });
 
 
-  
+  // For Universities & Colleges carousel
+  $(".rslides").responsiveSlides({
+    auto: true,
+    speed: 1000,
+    timeout: 7000
+  });
 
 
   // For making the selected course visible
@@ -110,39 +138,39 @@ $(document).ready(function() {
 
 
   // For getting newsletter popups every 10 seconds
-  let newsInterval = null;
+  // let newsInterval = null;
 
-  function showNewsletter() {
-    $('.newsletter_popup__backdrop').addClass('newsletter_popup__backdrop--active');
-    $('.newsletter_popup').css({
-      'transform': 'scale(1) translate(-50%, -50%)',
-      'opacity': '1'
-    });
-  };
+  // function showNewsletter() {
+  //   $('.newsletter_popup__backdrop').addClass('newsletter_popup__backdrop--active');
+  //   $('.newsletter_popup').css({
+  //     'transform': 'scale(1) translate(-50%, -50%)',
+  //     'opacity': '1'
+  //   });
+  // };
 
-  function hideNewsletter() {
-    $('.newsletter_popup__backdrop').removeClass('newsletter_popup__backdrop--active');
-    $('.newsletter_popup').css({
-      'transform': 'scale(0) translate(-50%, -50%)',
-      'opacity': '0'
-    });
-  }
+  // function hideNewsletter() {
+  //   $('.newsletter_popup__backdrop').removeClass('newsletter_popup__backdrop--active');
+  //   $('.newsletter_popup').css({
+  //     'transform': 'scale(0) translate(-50%, -50%)',
+  //     'opacity': '0'
+  //   });
+  // }
 
-  newsInterval = setInterval(() => {
-    showNewsletter();
-  }, 10000);
+  // newsInterval = setInterval(() => {
+  //   showNewsletter();
+  // }, 10000);
 
-  $('.newsletter_popup__main__close').click(function() {
-    hideNewsletter();
-    clearInterval(newsInterval);
-    newsInterval = setInterval(() => {
-      showNewsletter();
-    }, 10000);
-  });
+  // $('.newsletter_popup__main__close').click(function() {
+  //   hideNewsletter();
+  //   clearInterval(newsInterval);
+  //   newsInterval = setInterval(() => {
+  //     showNewsletter();
+  //   }, 10000);
+  // });
 
-  $(".newsletter_popup__main__form div").click(function() {
-    hideNewsletter();
-    clearInterval(newsInterval);
-  });
+  // $(".newsletter_popup__main__form div").click(function() {
+  //   hideNewsletter();
+  //   clearInterval(newsInterval);
+  // });
 
 });
