@@ -43,23 +43,6 @@
     <!-- NEWSLETTER_POPUP -->
 
 
-    <!-- FIXED_NAVBAR -->
-    <!-- <nav class="navbar--fixed">
-      <div class="navbar--fixed__container">
-        <div class="navbar--fixed__logo">
-          <a href='index.php'><img src='assets\svg\cb-logo.svg' /></a>
-        </div>
-        <div class="navbar--fixed__search">
-          <form>
-            <input type='text' placeholder='SEARCH FOR COURSES                MBA, BBA etc..' />
-            <button>SEARCH</button>
-          </form>
-        </div>
-      </div>
-    </nav> -->
-    <!-- /FIXED_NAVBAR -->
-
-
     <!-- NAVBAR_MAIN -->
     <div class='navbar_main'>
 
@@ -75,7 +58,7 @@
         <div class='navbar_main__header__container'>
 
           <div class="navbar_main__header__logo">
-            <img src="./assets/svg/cb-logo.svg" />
+            <a href='index.php'><img src="./assets/svg/cb-logo.svg" /></a>
           </div>
 
           <div class="navbar_main__header__search">
@@ -320,7 +303,7 @@
 
     <!-- FEATURES -->
     <div class="site_features">
-      <h1 class='site_features__title wow fadeIn'>OUR FEATURES</h1>
+      <h1 class='site_features__title wow fadeIn'>FEW REASONS WHY STUDENTS PREFER US</h1>
       <h3 class='site_features__subtitle'><span>CourseBrothers.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
       <div class="site_features__container">
 
@@ -434,6 +417,122 @@
     <!-- /TOP_COURSES -->
 
 
+    <!-- TESTIMONIALS -->
+    <div class="testimonials">
+
+      <div class='testimonials__container'>
+        <div class="testimonials__title">
+          <h3>25, 000+</h3>
+          <span>happy students</span>
+        </div>
+        
+        <div class='testimonials__body__container siema'>
+          <div class="testimonials__body">
+            
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>lalit messi</h5>
+              <h6>upes</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Krishna Ronaldo</h5>
+              <h6>nmims</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Kevin De Bruyne</h5>
+              <h6>scdl</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Neymar Jr.</h5>
+              <h6>scdl</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Ulquiorra</h5>
+              <h6>annamalai</h6>
+            </div>
+          
+          </div>
+          <div class="testimonials__body">
+            
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Romelu Lukaku</h5>
+              <h6>upes</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Dani Alves</h5>
+              <h6>nmims</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Pulisic</h5>
+              <h6>scdl</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Christian Erikson</h5>
+              <h6>scdl</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Ulquiorra</h5>
+              <h6>annamalai</h6>
+            </div>
+            
+          </div>
+          <div class="testimonials__body">
+            
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Keylor Navas</h5>
+              <h6>upes</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Thibaut Curtois</h5>
+              <h6>nmims</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Iker Casillas</h5>
+              <h6>scdl</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Gianluigi Buffon</h5>
+              <h6>scdl</h6>
+            </div>
+          
+            <div class="testimonials__body__item">
+              <img src="./assets/images/about_img/messi.jpg" />
+              <h5>Pickford</h5>
+              <h6>annamalai</h6>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /TESTIMONIALS -->
+
+
     <!-- FOOTER -->
     <?php include 'includes/footer.php' ?>
     <!-- /FOOTER -->
@@ -451,6 +550,8 @@
   </script>
   <!-- TweenMax -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <!-- jQuery marquee plugin -->
+  <script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>

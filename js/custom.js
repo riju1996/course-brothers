@@ -48,16 +48,6 @@ $(document).ready(function() {
     start(); 
     new WOW().init();
 
-    // const carousels = document.querySelectorAll('.carousel__container');
-    // const carouselContainer = document.querySelector('.featured_courses__carousel');
-    // carousels.forEach((item, index) => {
-    //   if (index === 0) {
-    //     item.style.display = 'block';
-    //   } else {
-    //     item.style.display = 'none';
-    //   }
-    // });
-
 
     // Header Carousel
     let headerCarousel = document.querySelectorAll('.siema');
@@ -95,21 +85,31 @@ $(document).ready(function() {
     });
 
 
-    // function carouselDisplayer(itemIndex) {
-    //   carousels.forEach(item => {
-    //     item.style.opacity = 0;
-    //     setTimeout(() => { item.style.display = 'none'; }, 400);
-    //   });
-    //   carousels[itemIndex].style.opacity = 1;
-    //   setTimeout(() => { carousels[itemIndex].style.display = 'block'; }, 400);
-    // };
-
-    // const featuredCourses = document.querySelectorAll('.featured_courses__list ul li');
-    // featuredCourses.forEach((course, index) => {
-    //   course.addEventListener('click', () => {
-    //     carouselDisplayer(index);
-    //   });
+    // // Testimonial Scroll
+    // let testimonialScrollOffset = 0;
+    // setInterval(() => {
+    //   $('.testimonials__body').animate({'scrollLeft': testimonialScrollOffset + 'px' });
+    //   testimonialScrollOffset += 4000;
+    // }, 3000);
+    // Initializing the marquee plugin
+    // $('.marquee').marquee({
+    //   direction: 'right',
+    //   duplicated: 'true',
+    //   duration: 15000,
+    //   pauseOnHover: 'true',
+    //   gap: 0
     // });
+    let testCarousel = new Siema({
+      selector: headerCarousel[2],
+      perPage: 1,
+      duration: 400,
+      // draggable: false,
+      loop: true
+    });
+
+    setInterval(() => {
+      testCarousel.next();
+    }, 6000);
 
   });
 
