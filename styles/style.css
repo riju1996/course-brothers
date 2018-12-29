@@ -2645,23 +2645,36 @@ body {
 
 .top_courses {
   width: 100%;
-  height: 100vh;
+  height: 42vh;
   background-image: url("../assets/svg/top-courses-bg.svg");
   background-size: cover;
+  position: relative;
 }
 
 .top_courses__title {
-  font-size: 2.8rem;
-  font-weight: 700;
   color: #DB324D;
-  letter-spacing: 0.4rem;
   text-align: center;
-  padding-top: 5rem;
+  text-transform: uppercase;
+  font-size: 2.8rem;
 }
 
 .top_courses__container {
-  width: 60%;
-  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.top_courses__item {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2669,59 +2682,122 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 7rem auto;
-}
-
-.top_courses__section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+          box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+  width: 16rem;
+  height: 16rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.top_courses__section img {
+.top_courses__item img {
   width: 6rem;
   height: 6rem;
+  margin-top: 1.4rem;
 }
 
-.top_courses__section .section_header {
+.top_courses__item h3 {
+  margin-top: 2rem;
+  color: #DB324D;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.top_courses__item:hover::after {
+  content: 'CLICK TO VIEW';
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 16rem;
+  position: absolute;
+  background-color: rgba(219, 50, 78, 0.801);
+  width: 16rem;
+  height: 16rem;
+  border-radius: 1rem;
+  opacity: 1;
+}
+
+.top_courses__item__section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: auto;
+  background-color: white;
+  z-index: -5;
+  opacity: 0;
+  -webkit-transition: 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  transition: 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.top_courses__item__section__button {
+  position: absolute;
+  top: 0;
+  right: 3rem;
+  color: #DB324D;
+  font-size: 4rem;
+  cursor: pointer;
+  z-index: 6;
+}
+
+.top_courses__item__section__container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.top_courses__item__section__container h4 {
+  text-transform: uppercase;
+  font-family: "LeagueSpartan";
+  color: #DB324D;
+  border-bottom: 2px solid #DB324D;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+
+.top_courses__item__section__container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  list-style: none;
+  height: 12rem;
+  margin-left: -4.2rem;
 }
 
-.top_courses__section .section_header h3 {
-  margin-left: 2rem;
-  color: #DB324D;
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-.top_courses__section .section_links a:link, .top_courses__section .section_links a:visited, .top_courses__section .section_links a:active {
-  color: #DB324D;
+.top_courses__item__section__container ul a:visited, .top_courses__item__section__container ul a:link, .top_courses__item__section__container ul a:active {
   text-decoration: none;
-  font-weight: 500;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
-.top_courses__section .section_links a:hover {
-  color: #ea8998;
+.top_courses__item__section__container ul li {
+  font-size: 1.8rem;
+  height: 3rem;
+  font-weight: 500;
+  color: #DB324D;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */

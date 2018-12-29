@@ -85,31 +85,19 @@ $(document).ready(function() {
     });
 
 
-    // // Testimonial Scroll
-    // let testimonialScrollOffset = 0;
-    // setInterval(() => {
-    //   $('.testimonials__body').animate({'scrollLeft': testimonialScrollOffset + 'px' });
-    //   testimonialScrollOffset += 4000;
-    // }, 3000);
-    // Initializing the marquee plugin
-    // $('.marquee').marquee({
-    //   direction: 'right',
-    //   duplicated: 'true',
-    //   duration: 15000,
-    //   pauseOnHover: 'true',
-    //   gap: 0
-    // });
+    // Testimonial Scroll
     let testCarousel = new Siema({
       selector: headerCarousel[2],
       perPage: 1,
       duration: 400,
-      // draggable: false,
+      draggable: false,
       loop: true
     });
 
     setInterval(() => {
       testCarousel.next();
     }, 6000);
+
 
   });
 
@@ -134,6 +122,33 @@ $(document).ready(function() {
     $('.featured_courses__list ul li').removeClass('list--active');
     $(this).addClass('list--active');
   });
+
+
+
+  // For the top courses modal
+  let topCourseItems = document.querySelectorAll('.top_courses__item');
+  let topCoursesItemsSections = document.querySelectorAll('.top_courses__item__section');
+  let topCoursesItemsSectionsButtons = document.querySelectorAll('.top_courses__item__section__button');
+
+  function sectionShow(sectionNum) {
+    topCoursesItemsSections[sectionNum].style.zIndex = '5';
+    topCoursesItemsSections[sectionNum].style.opacity = '1';
+  };
+
+  function sectionHide(sectionNum) {
+    topCoursesItemsSections[sectionNum].style.zIndex = '-5';
+    topCoursesItemsSections[sectionNum].style.opacity = '0';
+  };
+
+  for(let i = 0; i < topCourseItems.length; i++) {
+    topCourseItems[i].addEventListener('click', () => {
+      sectionShow(i);
+    });
+    topCoursesItemsSectionsButtons[i].addEventListener('click', (e) => {
+      e.stopPropagation();
+      sectionHide(i);
+    });
+  }
 
 
 

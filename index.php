@@ -343,76 +343,106 @@
 
     <!-- TOP_COURSES -->
     <div class="top_courses">
-      <h1 class='top_courses__title wow fadeIn'>TOP COURSES</h1>
-      <div class="top_courses__container wow fadeInLeftBig">
+      
+      <h2 class='top_courses__title'>our top picks</h2>
+      <div class="top_courses__container">
+        
+        <div class="top_courses__item">
+          <img src="./assets/svg/Icons/red/graduate-student-avatar.svg" />
+          <h3>graduate & <br> post-graduate</h3>
+          <div class="top_courses__item__section">
+            <div class="top_courses__item__section__button">
+              <i class='fa fa-times'></i>
+            </div>
+            <div class='top_courses__item__section__container'>
+              <h4>top graduate & post graduate courses</h4>
+              <ul>
+                <a href=''><li>mba</li></a>
+                <a href=''><li>executive mba</li></a>
+                <a href=''><li>ma</li></a>
+                <a href=''><li>mcom</li></a>
+                <a href=''><li>mca</li></a>
+                <a href=''><li>msc</li></a>
+                <a href=''><li>llm</li></a>
+                <a href=''><li>bba</li></a>
+                <a href=''><li>ba</li></a>
+                <a href=''><li>bcom</li></a>
+                <a href=''><li>bca</li></a>
+                <a href=''><li>bsc</li></a>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-        <div class="top_courses__section">
-          <div class="section_header">
-            <span><img src='./assets/svg/Icons/red/graduate-student-avatar.svg' /></span>
-            <h3>GRADUATE & <br> POST-GRADUATE</h3>
-          </div>
-          <div class="section_links">
-            <a href="#">MBA</a>, 
-            <a href="#">Executive MBA</a>, 
-            <a href="#">MA</a>, 
-            <a href="#">MCOM</a>, 
-            <a href="#">MCA</a>, 
-            <a href="#">MSc</a>, <br>
-            <a href="#">LLM</a>, 
-            <a href="#">BBA</a>, 
-            <a href="#">BA</a>, 
-            <a href="#">BCom</a>, 
-            <a href="#">BCA</a>, 
-            <a href="#">BSc</a>
-          </div>
-        </div>
-        <div class="top_courses__section">
-          <div class="section_header">
-            <span><img src='./assets/svg/Icons/red/mirror.svg' /></span>
-            <h3>SPECIALISATION</h3>
-          </div>
-          <div class="section_links">
-            <a href="#">Information Technology</a>, 
-            <a href="#">HR</a>, 
-            <a href="#">Marketing</a>, 
-            <a href="#">Retail</a>, <br>
-            <a href="#">Operations</a>, 
-            <a href="#">Aviation</a>, 
-            <a href="#">Oil & Gas</a>, 
-            <a href="#">Journalism</a>  
+        <div class="top_courses__item">
+          <img src="./assets/svg/Icons/red/mirror.svg" />
+          <h3>specialization</h3>
+          <div class="top_courses__item__section">
+            <div class="top_courses__item__section__button">
+              <i class='fa fa-times'></i>
+            </div>
+            <div class='top_courses__item__section__container'>
+              <h4>top specialization courses</h4>
+              <ul>
+                <a href=''><li>Information Technology</li></a>
+                <a href=''><li>hr</li></a>
+                <a href=''><li>marketing</li></a>
+                <a href=''><li>retail</li></a>
+                <a href=''><li>operations</li></a>
+                <a href=''><li>aviation</li></a>
+                <a href=''><li>oil & gas</li></a>
+                <a href=''><li>journalism</li></a>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="top_courses__section">
-          <div class="section_header">
-            <span><img src='./assets/svg/Icons/red/old-school.svg' /></span>
-            <h3>UNIVERSITIES & <br> INSTITUTES</h3>
-          </div>
-          <div class="section_links">
-            <a href="#">NMIMS</a>,
-            <a href="#">Annamalai University</a>, <br>
-            <a href="#">Bharati Vidyapeeth</a>, 
-            <a href="#">UPES</a>, 
-            <a href="#">ADTU</a>
+
+        <div class="top_courses__item">
+          <img src="./assets/svg/Icons/red/old-school.svg" />
+          <h3>universities</h3>
+          <div class="top_courses__item__section">
+            <div class="top_courses__item__section__button">
+              <i class='fa fa-times'></i>
+            </div>
+            <div class='top_courses__item__section__container'>
+              <h4>top universities</h4>
+              <ul>
+                <a href=''><li>nmims</li></a>
+                <a href=''><li>annamalai university</li></a>
+                <a href=''><li>bharati vidyapeeth</li></a>
+                <a href=''><li>upes</li></a>
+                <a href=''><li>adtu</li></a>
+                <a href=''><li>spjain</li></a>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="top_courses__section">
-          <div class="section_header">
-            <span><img src='./assets/svg/Icons/red/graduate-diploma.svg' /></span>
-            <h3>DIPLOMA & <br> PG DIPLOMA</h3>
-          </div>
-          <div class="section_links">
-            <a href="#">Finance</a>, 
-            <a href="#">HR</a>, 
-            <a href="#">Banking</a>, 
-            <a href="#">Marketing</a>, 
-            <a href="#">IT</a>, <br>
-            <a href="#">Operations</a>, 
-            <a href="#">Supply Chain</a>, 
-            <a href="#">Retail</a>, 
+
+        <div class="top_courses__item">
+          <img src="./assets/svg/Icons/red/graduate-diploma.svg" />
+          <h3>diploma & <br> pg diploma</h3>
+          <div class="top_courses__item__section">
+            <div class="top_courses__item__section__button">
+              <i class='fa fa-times'></i>
+            </div>
+            <div class='top_courses__item__section__container'>
+              <h4>top diploma & pg diploma courses</h4>
+              <ul>
+                <a href=''><li>finance</li></a>
+                <a href=''><li>hr</li></a>
+                <a href=''><li>banking</li></a>
+                <a href=''><li>marketing</li></a>
+                <a href=''><li>it</li></a>
+                <a href=''><li>operations</li></a>
+                <a href=''><li>supply chain</li></a>
+                <a href=''><li>retail</li></a>
+              </ul>
+            </div>
           </div>
         </div>
 
       </div>
+
     </div>
     <!-- /TOP_COURSES -->
 
@@ -550,8 +580,6 @@
   </script>
   <!-- TweenMax -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <!-- jQuery marquee plugin -->
-  <script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js'></script>
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
