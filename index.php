@@ -47,10 +47,24 @@
     <div class='navbar_main'>
 
       <div class="navbar_main__appendix">
-        <div class="navbar_main__appendix__cart">
-          <h5>cart</h5>
-          <span><img src="./assets/svg/Icons/white/shopping-cart.svg" /></span>
-        </div>
+
+        <div class='navbar_main__appendix__container'>
+          <div class="navbar_main__appendix__login">
+            <span><img src="./assets/svg/Icons/red/log-in.svg" /></span>
+            <h5>login</h5>
+          </div>
+          
+          <div class="navbar_main__appendix__register">
+            <span><img src="./assets/svg/Icons/white/clipboard-with-pencil-.svg" /></span>
+            <h5>register</h5>
+          </div>
+          
+          <div class="navbar_main__appendix__cart">
+            <h5>cart</h5>
+            <span><img src="./assets/svg/Icons/white/shopping-cart.svg" /></span>
+          </div>
+        </div>  
+
       </div>
 
       <div class="navbar_main__header">
@@ -218,83 +232,23 @@
 
     <!-- FEATURED_COURSES -->
     <div class="featured_courses">
-      
-      <h1 class='featured_courses__title wow fadeIn'>FEATURED COURSES</h1>
 
-      <div class="featured_courses__container">
+      <div class="featured_courses__main">
 
-        <div class="featured_courses__list wow fadeInLeft">
-          <ul>
-            <li>PGD MBA</li>
-            <li>PG COURSES</li>
-            <li>UG COURSES</li>
-            <li>DIPLOMA</li>
-          <ul>
+        <div class="featured_courses__main__head">
+          <h2>featured courses</h2>
         </div>
 
-        <div class="featured_courses__carousel wow fadeInRight">
-          <div class="carousel__button">
-            <i class="fa fa-angle-left"></i>
-            <i class="fa fa-angle-right"></i>
-          </div>
-
-          <div class="carousel__container siema">
-            
-            <a target='_blank' href="./pages/course-detail.php">
-              <div class="carousel__item">
-                <h3 class='carousel__item__uni'>UNIVERSITY OF PETROLEUM AND ENERGY STUDIES</h3>
-                <div class="carousel__item__sep"></div>
-                <h4 class='carousel__item__name'>MBA in supply chain</h4>
-                <div class="carousel__item__info">
-                  <h4 class='item__price'>Rs 35, 000</h4>
-                  <h4 class='item__duration'>2 YEARS</h4>
-                </div>
-              </div>
-            </a>
-            
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-
-            <div class="carousel__item">
-              <h3 class='carousel__item__uni'>UNIVERSITY OF PEWDS</h3>
-              <div class="carousel__item__sep"></div>
-              <h4 class='carousel__item__name'>MBA in supply chain</h4>
-              <div class="carousel__item__info">
-                <h4 class='item__price'>Rs 35, 000</h4>
-                <h4 class='item__duration'>2 YEARS</h4>
-              </div>
-            </div>
-            
-          </div>
-
+        <div class="featured_courses__main__nav">
+          <ul>
+              <li><a href=''>pgd mba</a></li>
+              <li><a href=''>pg courses</a></li>
+              <li><a href=''>ug courses</a></li>
+              <li><a href=''>diploma courses</a></li>
+              <li><a href=''>certificate courses</a></li>
+          </ul>
         </div>
+
       </div>
 
     </div>
@@ -583,6 +537,10 @@
   <!-- ToolTipster -->
   <script 
     src='https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.3.0/js/jquery.tooltipster.min.js'>
+  </script>
+  <!-- EasyTabs -->
+  <script 
+    src='https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js'>
   </script>
   <!-- RESPONSIVE SLIDES -->
   <script 

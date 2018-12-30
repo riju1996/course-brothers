@@ -38,24 +38,9 @@ $(document).ready(function() {
     }, 6000);
 
 
-    // Courses Carousel
-    let siema = new Siema({
-      selector: headerCarousel[1],
-      perPage: 2,
-      duration: 400
-    });
-
-    $('.carousel__button .fa-angle-right').click(() => {
-      siema.next();
-    });
-    $('.carousel__button .fa-angle-left').click(() => {
-      siema.prev();
-    });
-
-
     // Testimonial Scroll
     let testCarousel = new Siema({
-      selector: headerCarousel[2],
+      selector: headerCarousel[1],
       perPage: 1,
       duration: 400,
       draggable: false,
@@ -118,6 +103,13 @@ $(document).ready(function() {
     });
   }
 
+
+  // Parallax for featured courses
+  $(window).on('scroll', () => {
+    $('.featured_courses').css({
+      'background-position': `100% ${($(document).scrollTop() / 9)}%`
+    });
+  });
 
 
   // For getting newsletter popups every 10 seconds
