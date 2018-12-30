@@ -1,43 +1,11 @@
 $(document).ready(function() {
 
-  // Variables
-  $caret = $('.header__caret');
-  $navbarFixed = $('.navbar--fixed');
-
-
-  // Navbar animation on scroll
-  // window.addEventListener('scroll', () => {
-  //   if (window.pageYOffset > 1500) {
-  //     $navbarFixed.css('top', '0');
-  //   } else {
-  //     $navbarFixed.css('top', '-19vh');
-  //   }
-  // });
-
-
   // =====  GSAP Animations =====
-
-  // caretAnimation
-  function caretAnim() {
-    const caretTl = new TimelineMax({ repeat: -1, yoyo: true });
-    caretTl
-      .fromTo($caret, 1.5, {
-        y: -35,
-        autoAlpha: 0,
-      }, {
-        y: '+=20',
-        autoAlpha: 1,
-        ease: Power1.easeInOut
-      })
-    return caretTl;
-  };
 
     // Start function with Master Timeline
   function start() {
     console.log('----- GSAP STARTS -----');
     const masterTl = new TimelineMax();
-    masterTl
-      .add(caretAnim(), 'caret-animation')
     ;
   };
 
