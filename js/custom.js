@@ -84,7 +84,7 @@ $(document).ready(function() {
           featuredCourses[i].firstChild.style.color = '#DB324D';
           featuredCourses[i].classList.add('list--active');
           item.style.zIndex = '5';
-          setTimeout(() => { item.style.opacity = '1'; }, 100);  
+          item.style.opacity = '1';
         } else {
           item.style.opacity = '0';
           item.style.zIndex = '-9';
