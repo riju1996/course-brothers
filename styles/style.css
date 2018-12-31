@@ -1302,15 +1302,6 @@ body {
   font-size: 1.5rem;
 }
 
-.featured_courses__main__nav li:hover {
-  background-color: white;
-  width: 32rem;
-}
-
-.featured_courses__main__nav li:hover a {
-  color: #DB324D;
-}
-
 .featured_courses__main .list--active {
   width: 32rem;
   background-color: white;

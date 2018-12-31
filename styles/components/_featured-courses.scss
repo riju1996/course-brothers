@@ -52,13 +52,6 @@
         color: white;
         background-color: $rusty-red;
         transition: 0.4s ease-in-out;
-        &:hover {
-          background-color: white;
-          width: 32rem;
-        }
-        &:hover a {
-          color: $rusty-red;
-        }
       }
     }
 
@@ -66,7 +59,7 @@
       width: 32rem;
       background-color: white;
     }
-
+    
   }
 
 

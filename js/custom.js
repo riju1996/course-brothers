@@ -78,30 +78,26 @@ $(document).ready(function() {
 
   const coursesChanger = (itemNum) => {
     featuredCourses[itemNum].addEventListener('mouseover', (e) => {
-      featuredCourses[0].firstChild.style.color = 'white';
-      featuredCourses[0].classList.remove('list--active');
+
       featuredCoursesItems.forEach((item, i) => {
         if (i === itemNum) {
+          featuredCourses[i].firstChild.style.color = '#DB324D';
+          featuredCourses[i].classList.add('list--active');
           item.style.zIndex = '5';
-          setTimeout(() => { item.style.opacity = '1'; }, 200);  
+          setTimeout(() => { item.style.opacity = '1'; }, 100);  
         } else {
           item.style.opacity = '0';
           item.style.zIndex = '-9';
+          featuredCourses[i].firstChild.style.color = 'white';
+          featuredCourses[i].classList.remove('list--active');
         }
       });
+
     });
   };
 
   featuredCourses.forEach((item, index) => {
     coursesChanger(index);
-  });
-
-  featuredCourses[0].addEventListener('mouseover', function() {
-    featuredCourses[0].firstChild.style.color = '#DB324D';
-  });
-
-  featuredCourses[0].addEventListener('mouseleave', function() {
-    featuredCourses[0].firstChild.style.color = 'white';
   });
 
   featuredCoursesItems.forEach((item, index) => {
