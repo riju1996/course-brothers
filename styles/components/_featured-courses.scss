@@ -105,6 +105,7 @@
       box-sizing: border-box;
       overflow: hidden;
       transition: 0.4s;
+      z-index: 5;
 
       h4 {
         font-size: 1.5rem;
@@ -167,16 +168,27 @@
           padding: 1rem;
           outline: none;
           cursor: pointer;
+          transition: 0.4s;
           &:nth-child(1) {
             width: 50%;
             border-right: 1px solid white;
-            font-weight: $medium;
+            font-weight: $semiBold;
             font-size: 1.3rem;
+            &:hover {
+              background-color: white;
+              color: $rusty-red;
+              border-top: 1px solid $rusty-red;
+            }
           }
           &:nth-child(2) {
             width: 50%;
-            font-weight: $light;
+            font-weight: $medium;
             font-size: 1.2rem;
+            &:hover {
+              background-color: white;
+              color: $rusty-red;
+              border-top: 1px solid $rusty-red;
+            }
           }
         }
       }

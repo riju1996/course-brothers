@@ -1360,6 +1360,7 @@ body {
   overflow: hidden;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  z-index: 5;
 }
 
 .featured_courses__body__item h4 {
@@ -1436,19 +1437,33 @@ body {
   padding: 1rem;
   outline: none;
   cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .featured_courses__body__item__buttons button:nth-child(1) {
   width: 50%;
   border-right: 1px solid white;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.3rem;
+}
+
+.featured_courses__body__item__buttons button:nth-child(1):hover {
+  background-color: white;
+  color: #DB324D;
+  border-top: 1px solid #DB324D;
 }
 
 .featured_courses__body__item__buttons button:nth-child(2) {
   width: 50%;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.2rem;
+}
+
+.featured_courses__body__item__buttons button:nth-child(2):hover {
+  background-color: white;
+  color: #DB324D;
+  border-top: 1px solid #DB324D;
 }
 
 .footer {
