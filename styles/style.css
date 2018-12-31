@@ -1249,11 +1249,13 @@ body {
 
 .featured_courses {
   width: 100%;
-  height: 45rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#DB324D), to(rgba(180, 40, 63, 0))), url("../assets/images/about-founder-bg.jpg");
-  background: linear-gradient(to bottom, #DB324D, rgba(180, 40, 63, 0)), url("../assets/images/about-founder-bg.jpg");
+  height: 48rem;
+  position: relative;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(219, 50, 78, 0.815)), to(rgba(180, 40, 63, 0))), url("../assets/images/about-founder-bg.jpg");
+  background: linear-gradient(to bottom, rgba(219, 50, 78, 0.815), rgba(180, 40, 63, 0)), url("../assets/images/about-founder-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .featured_courses__main__head h2 {
@@ -1272,7 +1274,7 @@ body {
   list-style: none;
   width: 38rem;
   margin-left: -9.5rem;
-  margin-top: 4rem;
+  margin-top: 3.4rem;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
@@ -1309,11 +1311,151 @@ body {
   color: #DB324D;
 }
 
+.featured_courses__main .list--active {
+  width: 32rem;
+  background-color: white;
+}
+
+.featured_courses__body {
+  position: absolute;
+  height: 90%;
+  width: 65%;
+  right: 3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.featured_courses__body__container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.featured_courses__body__item {
+  margin: 0 0.5rem 0 0.5rem;
+  width: 42%;
+  height: 48%;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+          box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
+  background-size: cover;
+  background-position: 100% 80%;
+  background-repeat: no-repeat;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.featured_courses__body__item h4 {
+  font-size: 1.5rem;
+  margin: 2rem 0 0 1.5rem;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid white;
+  width: 30rem;
+}
+
+.featured_courses__body__item__course {
+  padding: 1rem;
+  background-color: white;
+  -webkit-transform: skewX(30deg);
+          transform: skewX(30deg);
+  width: 30rem;
+  margin-left: -4.5rem;
+  margin-top: 4rem;
+}
+
+.featured_courses__body__item__course span {
+  text-transform: uppercase;
+  color: #DB324D;
+  font-family: "LeagueSpartan";
+  font-size: 1.2rem;
+  padding-left: 5rem;
+  display: inline-block;
+  -webkit-transform: skewX(-30deg);
+          transform: skewX(-30deg);
+}
+
+.featured_courses__body__item__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  background-color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.featured_courses__body__item__info__price {
+  text-transform: uppercase;
+  color: #DB324D;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding-left: 1rem;
+}
+
+.featured_courses__body__item__info__year {
+  text-transform: uppercase;
+  color: #DB324D;
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding-right: 1rem;
+}
+
+.featured_courses__body__item__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.featured_courses__body__item__buttons button {
+  border: none;
+  background-color: #DB324D;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.featured_courses__body__item__buttons button:nth-child(1) {
+  width: 50%;
+  border-right: 1px solid white;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.featured_courses__body__item__buttons button:nth-child(2) {
+  width: 50%;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
 .footer {
   width: 100%;
   height: 50vh;
-  background: -webkit-gradient(linear, left bottom, right top, from(#FF5E5B), to(#A62639));
-  background: linear-gradient(to top right, #FF5E5B, #A62639);
+  background: -webkit-gradient(linear, left top, left bottom, from(#A62639), to(#DB324D));
+  background: linear-gradient(to bottom, #A62639, #DB324D);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1929,14 +2071,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transform: skewX(-15deg);
-          transform: skewX(-15deg);
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
   cursor: pointer;
 }
 
 .navbar_main__appendix__login > * {
-  -webkit-transform: skewX(15deg);
-          transform: skewX(15deg);
+  -webkit-transform: skewX(10deg);
+          transform: skewX(10deg);
 }
 
 .navbar_main__appendix__login h5 {
@@ -1966,14 +2108,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 8rem;
-  -webkit-transform: skewX(-15deg);
-          transform: skewX(-15deg);
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
   cursor: pointer;
 }
 
 .navbar_main__appendix__register > * {
-  -webkit-transform: skewX(15deg);
-          transform: skewX(15deg);
+  -webkit-transform: skewX(10deg);
+          transform: skewX(10deg);
 }
 
 .navbar_main__appendix__register h5 {
@@ -2393,6 +2535,7 @@ body {
 }
 
 .site_features__title {
+  font-family: "LeagueSpartan";
   font-size: 2.8rem;
   font-weight: 700;
   letter-spacing: 0.4rem;
@@ -2569,6 +2712,7 @@ body {
 }
 
 .top_courses__title {
+  font-family: "LeagueSpartan";
   color: #DB324D;
   text-align: center;
   text-transform: uppercase;

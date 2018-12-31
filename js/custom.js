@@ -69,13 +69,50 @@ $(document).ready(function() {
   });
 
 
-  // For making the selected course visible
-  $('.featured_courses__list ul li').first().addClass('list--active');
-  $('.featured_courses__list ul li').click(function() {
-    $('.featured_courses__list ul li').removeClass('list--active');
-    $(this).addClass('list--active');
+  // Dynamic change for Featured Courses 
+  const featuredCourses = document.querySelectorAll('.featured_courses__main__nav ul li');
+  const featuredCoursesItems = document.querySelectorAll('.featured_courses__body__container');
+
+  featuredCourses[0].firstChild.style.color = '#DB324D';
+  featuredCourses[0].classList.add('list--active');
+
+  const coursesChanger = (itemNum) => {
+    featuredCourses[itemNum].addEventListener('mouseover', (e) => {
+      featuredCourses[0].firstChild.style.color = 'white';
+      featuredCourses[0].classList.remove('list--active');
+      featuredCoursesItems.forEach((item, i) => {
+        if (i === itemNum) {
+          item.style.zIndex = '5';
+          setTimeout(() => { item.style.opacity = '1'; }, 200);  
+        } else {
+          item.style.opacity = '0';
+          item.style.zIndex = '-9';
+        }
+      });
+    });
+  };
+
+  featuredCourses.forEach((item, index) => {
+    coursesChanger(index);
   });
 
+  featuredCourses[0].addEventListener('mouseover', function() {
+    featuredCourses[0].firstChild.style.color = '#DB324D';
+  });
+
+  featuredCourses[0].addEventListener('mouseleave', function() {
+    featuredCourses[0].firstChild.style.color = 'white';
+  });
+
+  featuredCoursesItems.forEach((item, index) => {
+    if (index === 0) {
+      item.style.opacity = '1';
+    } else {
+      item.style.opacity = '0';
+    }
+  });
+
+  
 
 
   // For the top courses modal
@@ -107,7 +144,7 @@ $(document).ready(function() {
   // Parallax for featured courses
   $(window).on('scroll', () => {
     $('.featured_courses').css({
-      'background-position': `100% ${($(document).scrollTop() / 9)}%`
+      'background-position': `100% ${($(document).scrollTop() / 7)}%`
     });
   });
 

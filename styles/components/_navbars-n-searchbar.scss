@@ -191,8 +191,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      transform: skewX(-15deg);
-      & > * { transform: skewX(15deg); }
+      transform: skewX(-10deg);
+      & > * { transform: skewX(10deg); }
       cursor: pointer;
       h5 {
         text-transform: uppercase;
@@ -215,8 +215,8 @@
       justify-content: center;
       align-items: center;
       margin-right: 8rem;
-      transform: skewX(-15deg);
-      & > * { transform: skewX(15deg); }
+      transform: skewX(-10deg);
+      & > * { transform: skewX(10deg); }
       cursor: pointer;
       h5 {
         text-transform: uppercase;

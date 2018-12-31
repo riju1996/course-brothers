@@ -249,6 +249,431 @@
           </ul>
         </div>
 
+        <div class="featured_courses__body">
+
+          <div class="featured_courses__body__container">
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/annamalai.jpeg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>assam downtown university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/bharti.png') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>bharati vidyapeeth university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/upes.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>upes</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+              
+          </div>
+
+
+          <div class="featured_courses__body__container">
+
+          <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/nmims44.jpeg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>nmims</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/annamalai.jpeg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>assam downtown university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/bharti.png') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>bharti vidyapeeth university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+              
+          </div>
+
+          <div class="featured_courses__body__container">
+
+          <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/upes.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>upes</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>assam downtown university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/annamalai.jpeg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/nmims44.jpeg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>nmims</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+              
+          </div>
+
+          <div class="featured_courses__body__container">
+
+          <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>ranthambhour university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+              
+          </div>
+
+          <div class="featured_courses__body__container">
+
+          <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>phannamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+
+            <div style="background: linear-gradient(0deg, rgba(219, 50, 78, 0.900), rgba(219, 50, 78, 0.900)), url('./assets/images/institute_img/assam.jpg') 100% 80%/cover;" 
+              class="featured_courses__body__item">
+              <h4>annamalai university</h4>
+              <div class="featured_courses__body__item__course">
+                <span>hr management</span>
+              </div>
+              <div class="featured_courses__body__item__info">
+                <div class="featured_courses__body__item__info__price">
+                  rs 35, 000
+                </div>
+                <div class="featured_courses__body__item__info__year">
+                  2 years
+                </div>
+              </div>
+              <div class="featured_courses__body__item__buttons">
+                <button>apply now</button>
+                <button>read more</button>
+              </div>
+            </div>
+              
+          </div>
+
+        </div>
+
       </div>
 
     </div>
