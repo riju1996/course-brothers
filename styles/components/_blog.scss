@@ -1,0 +1,116 @@
+// Blog styling
+.latest_blogs {
+
+  width: 100%;
+  height: 50rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    text-align: center;
+    color: $rusty-red;
+    font-family: $league;
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+  }
+
+  &__container {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__item {
+
+    width: 24%;
+    height: 90%;
+    border-radius: 0.4rem;
+    background-color: white;
+    box-shadow: $subtle-shadow;
+    cursor: pointer;
+    overflow: hidden;
+
+    &__bg {
+
+      &__container {
+        border-top-right-radius: 0.4rem;
+        border-top-left-radius: 0.4rem;
+        width: 100%;
+        height: 58%;
+        overflow: hidden;
+      }
+
+      width: 100%;
+      height: 100%;
+      background: {
+        size: cover;
+        position: center;
+      }
+      transition: 8s cubic-bezier(0.47, 0, 0.745, 0.715);
+      
+    }
+
+    &__content {
+      
+      width: 100%;
+      height: 42%;
+      background-color: $rusty-red;
+      border-bottom-right-radius: 0.4rem;
+      border-bottom-left-radius: 0.4rem;
+      padding: 1.2rem;
+      box-sizing: border-box;
+      position: relative;
+
+      &__title {
+        margin: 0;
+        font-size: 1.4rem;
+        color: white;
+        text-transform: uppercase;
+        font-weight: $bold;
+      }
+
+      &__sep { 
+        margin-top: 0.4rem;
+        height: 0.1rem;
+        width: 10rem;
+        background-color: white;
+      }
+
+      p {
+        color: rgb(255, 168, 183);
+        font-size: 1.3rem;
+        margin: 1rem 0 0 0;
+      }
+
+    }
+
+    &:hover &__bg {
+      transform: scale(1.5);
+    }
+
+    &__continue {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 0; right: 0;
+      bottom: 0;
+      height: 2.5rem;
+      background-color: white;
+      transition: 0.4s;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $rusty-red;
+        font-weight: $semiBold;
+        font-size: 1.2rem;
+      }
+    }
+
+  }
+
+}

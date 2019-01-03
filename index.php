@@ -682,39 +682,41 @@
 
     <!-- FEATURES -->
     <div class="site_features">
-      <h1 class='site_features__title wow fadeIn'>FEW REASONS WHY STUDENTS PREFER US</h1>
-      <h3 class='site_features__subtitle'><span>CourseBrothers.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
-      <div class="site_features__container">
-
-        <div class="site_features__section wow fadeIn">
-          <div class="section_icon"><span><img src='./assets/svg/Icons/white/library.svg' /></span></div>
-          <div class="section_text">
-            <h3>COURSES FOR EVERYONE</h3>
-            <p>A student can make an informed career decision by choosing from a bouquet of degree, diploma & certificate courses.</p>
+      <div class='site_features__out'>
+        <h1 class='site_features__title wow fadeIn'>FEW REASONS WHY STUDENTS PREFER US</h1>
+        <h3 class='site_features__subtitle'><span>CourseBrothers.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
+        <div class="site_features__container">
+        
+          <div class="site_features__section wow fadeIn">
+            <div class="section_icon"><span><img src='./assets/svg/Icons/white/library.svg' /></span></div>
+            <div class="section_text">
+              <h3>COURSES FOR EVERYONE</h3>
+              <p>A student can make an informed career decision by choosing from a bouquet of degree, diploma & certificate courses.</p>
+            </div>
           </div>
-        </div>
-        <div class="site_features__section wow fadeIn" data-wow-delay='0.2s'>
-          <div class="section_icon"><span><img src='./assets/svg/Icons/white/online.svg' /></span></div>
-          <div class="section_text">
-            <h3>TOP COURSES BY PROVIDERS</h3>
-            <p>A student gets access to more than 100 Indian & International course providers, who offer high quality, credible and industry acceptable education.</p>
+          <div class="site_features__section wow fadeIn" data-wow-delay='0.2s'>
+            <div class="section_icon"><span><img src='./assets/svg/Icons/white/online.svg' /></span></div>
+            <div class="section_text">
+              <h3>TOP COURSES BY PROVIDERS</h3>
+              <p>A student gets access to more than 100 Indian & International course providers, who offer high quality, credible and industry acceptable education.</p>
+            </div>
           </div>
-        </div>
-        <div class="site_features__section wow fadeIn" data-wow-delay='0.4s'>
-          <div class="section_icon"><span><img src='./assets/svg/Icons/white/group.svg' /></span></div>
-          <div class="section_text">
-            <h3>STRONG STUDENT COMMUNITY</h3>
-            <p>We have a strong network of students across geographies. Be a part of this ever-growing student base and benefit from diverse experience and knowledge.</p>
+          <div class="site_features__section wow fadeIn" data-wow-delay='0.4s'>
+            <div class="section_icon"><span><img src='./assets/svg/Icons/white/group.svg' /></span></div>
+            <div class="section_text">
+              <h3>STRONG STUDENT COMMUNITY</h3>
+              <p>We have a strong network of students across geographies. Be a part of this ever-growing student base and benefit from diverse experience and knowledge.</p>
+            </div>
           </div>
-        </div>
-        <div class="site_features__section wow fadeIn" data-wow-delay='0.6s'>
-          <div class="section_icon"><span><img src='./assets/svg/Icons/white/work.svg' /></span></div>
-          <div class="section_text">
-            <h3>GREAT LEARNING EXPERIENCE</h3>
-            <p>A student benefits from additional services like networking opportunities, placement assistance through our Job Portal and expert counselling.</p>
+          <div class="site_features__section wow fadeIn" data-wow-delay='0.6s'>
+            <div class="section_icon"><span><img src='./assets/svg/Icons/white/work.svg' /></span></div>
+            <div class="section_text">
+              <h3>GREAT LEARNING EXPERIENCE</h3>
+              <p>A student benefits from additional services like networking opportunities, placement assistance through our Job Portal and expert counselling.</p>
+            </div>
           </div>
+        
         </div>
-
       </div>
     </div>
     <!-- /FEATURES -->
@@ -940,6 +942,87 @@
 
     </div>
     <!-- /TESTIMONIALS -->
+
+
+    <!-- LATEST_BLOGS -->
+    <div class="latest_blogs">
+
+      <h2 class='latest_blogs__title'>latest blog posts</h2>
+
+      <div class="latest_blogs__container">
+        
+        <div class="latest_blogs__item">
+          <div class='latest_blogs__item__bg__container'>
+            <div style="background-image: url('./assets/images/about-bg.jpg')" class="latest_blogs__item__bg"></div>
+          </div>
+          <div class="latest_blogs__item__content">
+            <h5 class="latest_blogs__item__content__title">
+              how to stay safe from our outrageous fraud schemes
+            </h5>
+            <div class="latest_blogs__item__content__sep"></div>
+            <p>In this day and age, we have proven ourself in the field of education consultancy, but there is a dark truth nobody knows about us yet....
+            </p>
+            <div class="latest_blogs__item__continue">
+              <a href="">continue reading</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest_blogs__item">
+          <div class='latest_blogs__item__bg__container'>
+            <div style="background-image: url('./assets/images/news-bg.jpg')" class="latest_blogs__item__bg"></div>
+          </div>
+          <div class="latest_blogs__item__content">
+            <h5 class="latest_blogs__item__content__title">
+              when we were caught doing bank fraud
+            </h5>
+            <div class="latest_blogs__item__content__sep"></div>
+            <p>In this day and age, we have proven ourself in the field of education consultancy, but there is a dark truth nobody knows about us yet....
+            </p>
+            <div class="latest_blogs__item__continue">
+              <a href="">continue reading</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest_blogs__item">
+          <div class='latest_blogs__item__bg__container'>
+            <div style="background-image: url('./assets/images/header-bg.jpg')" class="latest_blogs__item__bg"></div>
+          </div>
+          <div class="latest_blogs__item__content">
+            <h5 class="latest_blogs__item__content__title">
+              here's why you should never buy from us
+            </h5>
+            <div class="latest_blogs__item__content__sep"></div>
+            <p>In this day and age, we have proven ourself in the field of education consultancy, but there is a dark truth nobody knows about us yet...
+            </p>
+            <div class="latest_blogs__item__continue">
+              <a href="">continue reading</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="latest_blogs__item">
+          <div class='latest_blogs__item__bg__container'>
+            <div style="background-image: url('./assets/images/contact-bg.jpg')" class="latest_blogs__item__bg"></div>
+          </div>
+          <div class="latest_blogs__item__content">
+            <h5 class="latest_blogs__item__content__title">
+              how we hid our darkest secrets for so long
+            </h5>
+            <div class="latest_blogs__item__content__sep"></div>
+            <p>In this day and age, we have proven ourself in the field of education consultancy, but there is a dark truth nobody knows about us yet...
+            </p>
+            <div class="latest_blogs__item__continue">
+              <a href="">continue reading</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /LATEST_BLOGS -->
 
 
     <!-- FOOTER -->
