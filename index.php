@@ -684,7 +684,7 @@
     <div class="site_features">
       <div class='site_features__out'>
         <h1 class='site_features__title wow fadeIn'>FEW REASONS WHY STUDENTS PREFER US</h1>
-        <h3 class='site_features__subtitle'><span>CourseBrothers.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
+        <h3 class='site_features__subtitle'><span>CourseBrother.com</span> is your one-stop destination for course exploration & making an informed education decision</h3>
         <div class="site_features__container">
         
           <div class="site_features__section wow fadeIn">
@@ -943,6 +943,353 @@
     </div>
     <!-- /TESTIMONIALS -->
 
+
+    <!-- NEWS_UPDATES -->
+    <div class="news_updates">
+
+      <div class="news_updates__back">
+        <i class='fa fa-angle-left'></i>
+      </div>
+
+      <div class="news_updates__container">
+        <div class="news_updates__head">
+          <h2>news & updates</h2>
+        </div>
+        <div class="news_updates__main siema">
+
+          <div class="news_updates__main__container">
+            <div class="news_updates__main__section">
+              <h5 class="news_updates__main__section__title">
+                narsee monjee institute of management studies
+              </h5>
+              <div class="news_updates__main__section__sep"></div>
+              <div class="news_updates__main__section__content">
+
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="news_updates__main__section">
+              <h5 class="news_updates__main__section__title">
+                annamalai university
+              </h5>
+              <div class="news_updates__main__section__sep"></div>
+              <div class="news_updates__main__section__content">
+                
+                <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="news_updates__main__container">
+            <div class="news_updates__main__section">
+              <h5 class="news_updates__main__section__title">
+                upes
+              </h5>
+              <div class="news_updates__main__section__sep"></div>
+              <div class="news_updates__main__section__content">
+
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="news_updates__main__section">
+              <h5 class="news_updates__main__section__title">
+                assam downtown university
+              </h5>
+              <div class="news_updates__main__section__sep"></div>
+              <div class="news_updates__main__section__content">
+                
+                <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="news_updates__main__container">
+            <div class="news_updates__main__section">
+              <h5 class="news_updates__main__section__title">
+                scdl
+              </h5>
+              <div class="news_updates__main__section__sep"></div>
+              <div class="news_updates__main__section__content">
+
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+                <div class="news_updates__main__section__content__item">
+                  <h3>exam dates for pgd mba out</h3>
+                  <p>
+                    The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                    <a href="#">read more</a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="news_updates__main__section">
+              <h5 class="news_updates__main__section__title">
+                nmims
+              </h5>
+              <div class="news_updates__main__section__sep"></div>
+              <div class="news_updates__main__section__content">
+                
+                <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+                  <div class="news_updates__main__section__content__item">
+                    <h3>exam dates for pgd mba out</h3>
+                    <p>
+                      The dates for the upcoming pgd mba exam has been announced to be at 11.1.2019...
+                      <a href="#">read more</a>
+                    </p>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="news_updates__next">
+        <i class='fa fa-angle-right'></i>
+      </div>
+
+    </div>
+    <!-- /NEWS_UPDATES -->
 
     <!-- LATEST_BLOGS -->
     <div class="latest_blogs">

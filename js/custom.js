@@ -51,6 +51,40 @@ $(document).ready(function() {
       testCarousel.next();
     }, 6000);
 
+    // News Scroll
+    let newsCarousel = new Siema({
+      selector: headerCarousel[2],
+      perPage: 1,
+      duration: 400,
+      draggable: false,
+      loop: true
+    });
+
+    $('.news_updates__back').click(() => {
+      newsCarousel.prev();
+    });
+
+    $('.news_updates__next').click(() => {
+      newsCarousel.next();
+    });
+
+    let newsInterval = '';
+    const newsContainer = document.querySelector('.news_updates__container');
+    
+    newsInterval = setInterval(() => {
+      newsCarousel.next();
+    }, 5000);
+
+    newsContainer.addEventListener('mouseover', (e) => {
+      clearInterval(newsInterval);
+    });
+
+    newsContainer.addEventListener('mouseleave', () => {
+      newsCarousel.next();
+      newsInterval = setInterval(() => {
+        newsCarousel.next();
+      }, 5000);
+    });
 
   });
 
