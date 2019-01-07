@@ -80,7 +80,6 @@ $(document).ready(function() {
     });
 
     newsContainer.addEventListener('mouseleave', () => {
-      newsCarousel.next();
       newsInterval = setInterval(() => {
         newsCarousel.next();
       }, 5000);
@@ -186,7 +185,9 @@ $(document).ready(function() {
   //   $('.newsletter_popup__backdrop').addClass('newsletter_popup__backdrop--active');
   //   $('.newsletter_popup').css({
   //     'transform': 'scale(1) translate(-50%, -50%)',
-  //     'opacity': '1'
+  //     'opacity': '1',
+  //     'display': 'relative',
+  //     'z-index': '8'
   //   });
   // };
 
@@ -194,7 +195,8 @@ $(document).ready(function() {
   //   $('.newsletter_popup__backdrop').removeClass('newsletter_popup__backdrop--active');
   //   $('.newsletter_popup').css({
   //     'transform': 'scale(0) translate(-50%, -50%)',
-  //     'opacity': '0'
+  //     'opacity': '0',
+  //     'z-index': '1'
   //   });
   // }
 
