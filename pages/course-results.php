@@ -30,167 +30,256 @@
   <div class="main-container main_container__results">
 
 
-    <!-- NAVBAR_SCROLL -->
-    <?php include '../includes/navbar-scroll.php' ?>
-    <!-- /NAVBAR_SCROLL -->
+    <!-- NAVBAR_MAIN -->
+    <?php include '../includes/navbar-main.php'; ?>
+    <!-- /NAVBAR_MAIN -->
 
+    <!-- MAIN_CONTAINER -->
+    <main class="main_container">
 
-    <!-- SEARCH_BAR -->
-    <?php include '../includes/search-bar.php' ?>
-    <!-- /SEARCH_BAR -->
+      <!-- FILTER_RESULTS -->
+      <div class="filter_results">
 
+        <div class="filter_results__head">
+          <h3>filter results</h3>
+          <button>clear all</button>
+        </div>
 
-    <!-- COURSE_RESULTS -->
-    <div class="course_results">
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>course category</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search category' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> distance mba <br>
+              <input type="checkbox"> bba + mba <br>
+              <input type="checkbox"> distance post graduate <br>
+              <input type="checkbox"> distance mba <br>
+            </div>
+          </div>
+        </div>
 
-      <div class="course_results__header">
-        <h3>FOUND <b>24</b> RESULT(S) FOR <b>MBA</b> </h3>
-      </div>
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>institute</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search institutes' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> annamalai university <br>
+              <input type="checkbox"> nmims <br>
+              <input type="checkbox"> upes <br>
+              <input type="checkbox"> bharati vidyapeeth <br>
+              <input type="checkbox"> scdl <br>
+            </div>
+          </div>
+        </div>
 
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>specialization</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search specializations' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> finance <br>
+              <input type="checkbox"> human resource <br>
+              <input type="checkbox"> marketing <br>
+              <input type="checkbox"> operations <br>
+              <input type="checkbox"> supply chain <br>
+            </div>
+          </div>
+        </div>
 
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>exam centre</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search exam centres' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> delhi ncr <br>
+              <input type="checkbox"> kolkata <br>
+              <input type="checkbox"> andhra pradesh <br>
+              <input type="checkbox"> hugli <br>
+            </div>
+          </div>
+        </div>
 
-      <!-- COURSE_RESULTS_REFINED_SEARCH -->
-      <div class="course_results__refined_search">
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>affiliation</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search affiliations' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> ugc <br>
+              <input type="checkbox"> aicte <br>
+              <input type="checkbox"> inc <br>
+              <input type="checkbox"> iap <br>
+            </div>
+          </div>
+        </div>
 
-        <h3 class='course_results__refined_search__title'>REFINED SEARCH</h3>
-        <button class='course_results__refined_search__filter'>
-          <i class="fa fa-filter"></i>
-          filter
-        </button>
-        <div class="course_results__refined_search__button">
-          <i class="fa fa-angle-down"></i>
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>certification type</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search certification types' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> distance <br>
+            </div>
+          </div>
         </div>
         
-        <div class="course_results__refined_search__body">
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>course type</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search course types' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> distance <br>
+            </div>
+          </div>
+        </div>
 
-          <div class="course_results__refined_search__body__option">
-            <h5>institute</h5>
-            <div class="course_results__refined_search__body__option__options">
-              <span><input type="checkbox"> ANNAMALAI UNIVERSITY</span>
-              <span><input type="checkbox"> ASSAM DOWNTOWN UNIVERSITY</span>
-              <span><input type="checkbox"> UPES</span> 
+        <div class="filter_results__item">
+          <div class="filter_results__item__head">
+            <h5>delivery mode</h5>
+            <i class='fa fa-angle-up'></i>
+          </div>
+          <div class="filter_results__item__content">
+            <form class='filter_results__item__form'>
+              <input type="text" placeholder='search delivery modes' />
+            </form>
+            <div class="filter_results__item__check">
+              <input type="checkbox"> online self learning <br>
+              <input type="checkbox"> books <br>
+              <input type="checkbox"> weekend classes <br>
+              <input type="checkbox"> distance learning <br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /FILTER_RESULTS -->
+
+
+      <!-- COURSE_RESULTS -->
+      <div class="course_results">
+
+        <div class="course_results__head">
+          <h3>showing <b>2</b> results for '<b>pgd mba</b>'</h3>
+        </div>
+
+        <div class="course_results__container">
+
+          <div class="course_results__item">
+            <div class="course_results__item__img">
+              <img src="../assets/images/institute_img/assam.jpg" />
+            </div>
+            <div class="course_results__item__content">
+              <div class="course_results__item__content__head">
+                <h4><a href="">mba in supply chain</a></h4>
+                <h5>assam downtown university</h5>
+              </div>
+              <div class="course_results__item__content__info">
+                <div class="course_results__item__content__info__dur">
+                  <img src="../assets/svg/Icons/red/stopwatch.svg" />
+                  <h5>2 years</h5>
+                </div>
+                <div class="course_results__item__content__info__dm">
+                  <h5>delivery mode</h5>
+                  <h6>books, online learning</h6>
+                </div>
+              </div>
+              <div class="course_results__item__content__price">
+                <h3>Rs 17, 000 <span>(annual)</span></h3>
+              </div>
+            </div>
+            <div class="course_results__item__buttons">
+              <button>go to course</button>
+              <button>add to compare</button>
             </div>
           </div>
 
-          <div class="course_results__refined_search__body__option">
-            <h5>course fee</h5>
-            <div class="course_results__refined_search__body__option__options">
-              <span><input type="checkbox"> Rs 25000 - Rs 30000</span>
-              <span><input type="checkbox"> Rs 20000 - Rs 25000</span>
-              <span><input type="checkbox"> Rs 14000 - Rs 20000</span> 
+          <div class="course_results__item">
+            <div class="course_results__item__img">
+              <img src="../assets/images/institute_img/annamalai.jpeg" />
             </div>
-          </div>
-
-          <div class="course_results__refined_search__body__option">
-            <h5>specialisation</h5>
-            <div class="course_results__refined_search__body__option__options">
-              <span><input type="checkbox"> finance</span>
-              <span><input type="checkbox"> human resource</span>
-              <span><input type="checkbox"> marketing</span> 
+            <div class="course_results__item__content">
+              <div class="course_results__item__content__head">
+                <h4><a href="">mba in telecom</a></h4>
+                <h5>annamalai university</h5>
+              </div>
+              <div class="course_results__item__content__info">
+                <div class="course_results__item__content__info__dur">
+                  <img src="../assets/svg/Icons/red/stopwatch.svg" />
+                  <h5>2 years</h5>
+                </div>
+                <div class="course_results__item__content__info__dm">
+                  <h5>delivery mode</h5>
+                  <h6>online learning</h6>
+                </div>
+              </div>
+              <div class="course_results__item__content__price">
+                <h3>Rs 18, 000 <span>(annual)</span></h3>
+              </div>
             </div>
-          </div>
-
-          <div class="course_results__refined_search__body__option">
-            <h5>affiliation</h5>
-            <div class="course_results__refined_search__body__option__options">
-              <span><input type="checkbox"> ugc</span>
-              <span><input type="checkbox"> aicte</span>
-              <span><input type="checkbox"> iap</span> 
-            </div>
-          </div>
-
-          <div class="course_results__refined_search__body__option">
-            <h5>institute</h5>
-            <div class="course_results__refined_search__body__option__options">
-              <span><input type="checkbox"> ANNAMALAI UNIVERSITY</span>
-              <span><input type="checkbox"> ASSAM DOWNTOWN UNIVERSITY</span>
-              <span><input type="checkbox"> UPES</span> 
+            <div class="course_results__item__buttons">
+              <button>go to course</button>
+              <button>add to compare</button>
             </div>
           </div>
 
         </div>
 
       </div>
-      <!-- /COURSE_RESULTS_REFINED_SEARCH -->
+      <!-- /COURSE_RESULTS -->
 
 
-
-      <!-- COURSE_RESULTS_SYSTEM -->
-      <div class="course_results__system">
-        <div class="course_results__system__block">
-          <div></div>
-          <div></div>
-          <div></div>
+      <!-- AD_BANNERS -->
+      <div class="ad_banners">
+        
+        <div class="ad_banners__item">
+          <h4>ad banner</h4>
         </div>
-        <div class="course_results__system__grid">
-          <div></div> <div></div> <div></div> 
-          <div></div> <div></div> <div></div>
+        <div class="ad_banners__item">
+          <h4>ad banner</h4>
         </div>
-      </div>
-      <!-- /COURSE_RESULTS_SYSTEM -->
-
-
-      <!-- COURSES_MAIN -->
-      <div class="course_results__main">
-
-
-        <div class="course_results__item">
-          <div class="course_results__item__logo">
-            <img src="../assets/images/institute_img/annamalai.jpeg" />
-          </div>
-          <div class="course_results__item__body">
-            <div class="course_results__item__body__content">
-              <div class="course_results__item__body__content__head">
-                <h2>MBA IN TELECOM</h2>
-                <h5>ANNAMALAI UNIVERSITY</h5>
-              </div>
-              <div class="course_results__item__body__content__appendix">
-                <h4>2 YEARS</h4>
-                <h4>ONLINE LEARNING</h4>
-              </div>
-              <div class="course_results__item__body__content__buttons">
-                <button>GO TO COURSE</button>
-                <button>ADD TO COMPARE</button>
-              </div>
-            </div>
-            <div class="course_results__item__body__price">
-              <h4>Rs 35, 000</h4>
-            </div>
-          </div>
+        <div class="ad_banners__item">
+          <h4>ad banner</h4>
         </div>
-
-        <div class="course_results__item">
-          <div class="course_results__item__logo">
-            <img src="../assets/images/institute_img/nmims44.jpeg" />
-          </div>
-          <div class="course_results__item__body">
-            <div class="course_results__item__body__content">
-              <div class="course_results__item__body__content__head">
-                <h2>MBA IN SUPPLY CHAIN</h2>
-                <h5>NMIMS</h5>
-              </div>
-              <div class="course_results__item__body__content__appendix">
-                <h4>2 YEARS</h4>
-                <h4>ONLINE LEARNING</h4>
-              </div>
-              <div class="course_results__item__body__content__buttons">
-                <button>GO TO COURSE</button>
-                <button>ADD TO COMPARE</button>
-              </div>
-            </div>
-            <div class="course_results__item__body__price">
-              <h4>Rs 20, 000</h4>
-            </div>
-          </div>
-        </div>
-
 
       </div>
-      <!-- /COURSES_MAIN -->
+      <!-- /AD_BANNERS -->
 
-
-    </div>
-    <!-- /COURSE_RESULTS -->
+    </main>
+    <!-- /MAIN_CONTAINER -->
     
 
     <!-- FOOTER -->

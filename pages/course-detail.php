@@ -36,15 +36,9 @@
   <div class="main-container">
 
 
-    <!-- NAVBAR_SCROLL -->
-    <?php include '../includes/navbar-scroll.php' ?>
-    <!-- /NAVBAR_SCROLL -->
-
-
-    <!-- SEARCH_BAR -->
-    <?php include '../includes/search-bar.php' ?>
-    <!-- /SEARCH_BAR -->
-
+    <!-- NAVBAR_MAIN -->
+    <?php include '../includes/navbar-main.php'; ?>
+    <!-- /NAVBAR_MAIN -->
 
 
     <!-- COURSE_DETAIL -->

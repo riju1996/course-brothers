@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    h3 { color: rgb(168, 168, 168); font-weight: $semiBold; font-size: 1.2rem; }
+    h3 { color: rgb(168, 168, 168); font-weight: $semiBold; font-size: 1.15rem; }
   }
 
   // Footer Extend
@@ -30,7 +30,7 @@
     h4 {
       color: white;
       font-weight: $medium;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
     span {
       color: white;
@@ -62,25 +62,61 @@
 
 
   &__quick_links {
-    // border-right: 1px solid white;
     padding-right: 7rem;
     a {
       &:link, &:visited, &:active {
         text-decoration: none;
         color: white;
         font-weight: $medium;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        transition: 0.3s;
+        &:hover {
+          color: $light-red;
+        }
       }
     }
     .links {
       padding-top: 2rem;
       display: flex;
-      height: 5rem;
       width: 20vw;
       flex-direction: column;
       justify-content: space-between;
-      flex-wrap: wrap;
     }
+  }
+
+
+  // Footer Policies styling
+  &__policies {
+
+    margin-left: -15rem;
+
+    h3 {
+      text-transform: uppercase;
+    }
+
+    a {
+      &:link, &:visited, &:active {
+        text-decoration: none;
+        color: white;
+        font-weight: $medium;
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+        transition: 0.3s;
+        &:hover {
+          color: $light-red;
+        }
+      }
+    }
+    .links {
+      padding-top: 2rem;
+      display: flex;
+      width: 20vw;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
   }
 
 
@@ -107,7 +143,7 @@
       &::placeholder {
         color: white;
         font-weight: $light;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
     }
     

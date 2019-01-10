@@ -178,6 +178,21 @@ $(document).ready(function() {
   });
 
 
+
+  // Back to top
+  $(window).scroll(function() {
+    if ($(this).scrollTop() >= 1000) {
+      $('.back-to-top').css('bottom', '3rem');
+    } else {
+      $('.back-to-top').css('bottom', '-10rem');
+    }
+  });
+
+  $('.back-to-top').click(() => {
+    $('html, body').animate({ scrollTop: 0 }, 800);
+  });
+
+
   // For getting newsletter popups every 10 seconds
   // let newsInterval = null;
 

@@ -24,6 +24,16 @@
         <a href="#">SERVICES</a>
       </div>
     </div>
+    <div class="footer__policies">
+      <h3>our policies</h3>
+      <div class="links">
+        <a href="#">shipping & delivery policy</a>
+        <a href="#">refund policy</a>
+        <a href="#">disclaimer</a>
+        <a href="#">terms & conditions</a>
+        <a href="#">privacy policy</a>
+      </div>
+    </div>
     <div class="footer__newsletter">
       <h3>SUBSCRIBE TO NEWSLETTER</h3>
       <div class="newsletter_form">
