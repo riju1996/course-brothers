@@ -313,8 +313,8 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
-  -webkit-transition: 0.6s cubic-bezier(0.47, 0, 0.745, 0.715);
-  transition: 0.6s cubic-bezier(0.47, 0, 0.745, 0.715);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .latest_blogs__item__bg__container {
@@ -359,8 +359,8 @@ body {
 }
 
 .latest_blogs__item:hover .latest_blogs__item__bg {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
 }
 
 .latest_blogs__item__continue {
@@ -693,8 +693,8 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   border-left: 2px solid #FF8B9C;
-  padding-left: 2.5rem;
-  margin-right: 16rem;
+  padding-left: 3rem;
+  margin-right: 18rem;
 }
 
 .course_detail__header .detail__info .detail__info__payment__onetime, .course_detail__header .detail__info .detail__info__payment__annual {
@@ -714,6 +714,8 @@ body {
 }
 
 .course_detail__header .detail__info .detail__info__payment__onetime h4:nth-child(1), .course_detail__header .detail__info .detail__info__payment__annual h4:nth-child(1) {
+  font-weight: 700;
+  font-size: 1.5rem;
   color: #DB324D;
   background-color: white;
   padding: 0.6rem 1rem;
@@ -724,7 +726,7 @@ body {
 .course_detail__header .detail__info .detail__info__payment__onetime h4:nth-child(2), .course_detail__header .detail__info .detail__info__payment__annual h4:nth-child(2) {
   color: white;
   background-color: #DB324D;
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 1rem;
   border-top-right-radius: 0.4rem;
   border-bottom-right-radius: 0.4rem;
   -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.199);
@@ -775,7 +777,8 @@ body {
 .course_detail__body__nav button {
   width: 30rem;
   border: none;
-  border-bottom: 7px solid #bd2b43;
+  border: 7px solid white;
+  border-radius: 1rem;
   background-color: #DB324D;
   color: white;
   font-weight: 600;
@@ -1038,61 +1041,61 @@ body {
 }
 
 .animateButton {
-  -webkit-animation: shake 0.6s ease-in-out;
-          animation: shake 0.6s ease-in-out;
+  -webkit-animation: shake 0.6s ease-out;
+          animation: shake 0.6s ease-out;
 }
 
 @-webkit-keyframes shake {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   20% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
   40% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   60% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
   80% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
 @keyframes shake {
   0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   20% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
   40% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   60% {
-    -webkit-transform: translateY(5px);
-            transform: translateY(5px);
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
   }
   80% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -1611,6 +1614,7 @@ body {
 
 .featured_courses__body__item {
   margin: 0 0.5rem 0 0.5rem;
+  background-color: #DB324D;
   width: 42%;
   height: 48%;
   border-radius: 0.5rem;
