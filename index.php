@@ -48,6 +48,46 @@
     <!-- /BACK_TO_TOP -->
 
 
+    <!-- LOGIN_MODAL -->
+    <div class="login_modal__backdrop"></div>
+    <div class="login_modal">
+      <div class="login_modal__close" title='close'>
+        <i class='fa fa-times'></i>
+      </div>
+      <div class="login_modal__main">
+        <div class="login_modal__main__title">
+          <h2>log in</h2>
+          <h4>to your account</h4>
+        </div>
+        <form class="login_modal__main__form">
+          <input type="email" placeholder='enter email address' />
+          <input type="password" placeholder='enter password' />
+          <button type='submit'>log in</button>
+        </form>
+        <div class="login_modal__main__oauth">
+          <h3>login with</h3>
+          <div class="login_modal__main__oauth__container">
+            <div class="login_modal__main__oauth__item"></div>
+            <div class="login_modal__main__oauth__item"></div>
+            <div class="login_modal__main__oauth__item"></div>
+          </div>
+        </div>
+      </div>
+      <div class="login_modal__appendix">
+        <div class="login_modal__appendix__head">
+          <h2>welcome back</h2>
+          <div class="login_modal__appendix__head__sep"></div>
+          <p>enter your login credentials to connect with us again!</p>
+        </div>
+        <div class="login_modal__appendix__register">
+          <p>don't have an account?</p>
+          <button>register here</button>
+        </div>
+      </div>
+    </div>
+    <!-- /LOGIN_MODAL -->
+
+
     <!-- NAVBAR_MAIN -->
     <div class='navbar_main'>
 

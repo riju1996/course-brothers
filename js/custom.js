@@ -18,9 +18,9 @@ $(document).ready(function() {
 
 
     // Header Carousel
-    let headerCarousel = document.querySelectorAll('.siema');
+    let masterCarousel = document.querySelectorAll('.siema');
     let headerSiema = new Siema({
-      selector: headerCarousel[0],
+      selector: masterCarousel[0],
       draggable: false,
       loop: true,
       duration: 400
@@ -40,7 +40,7 @@ $(document).ready(function() {
 
     // Testimonial Scroll
     let testCarousel = new Siema({
-      selector: headerCarousel[1],
+      selector: masterCarousel[1],
       perPage: 1,
       duration: 400,
       draggable: false,
@@ -53,7 +53,7 @@ $(document).ready(function() {
 
     // News Scroll
     let newsCarousel = new Siema({
-      selector: headerCarousel[2],
+      selector: masterCarousel[2],
       perPage: 1,
       duration: 400,
       draggable: false,
@@ -192,6 +192,23 @@ $(document).ready(function() {
     $('html, body').animate({ scrollTop: 0 }, 800);
   });
 
+
+
+  // For Login Modal Display
+  const loginButton = document.querySelector('.navbar_main__appendix__login');
+  const loginModal = document.querySelector('.login_modal');
+  const loginModalBackdrop = document.querySelector('.login_modal__backdrop');
+  const loginModalClose = document.querySelector('.login_modal__close');
+
+  loginButton.addEventListener('click', function() {
+    loginModalBackdrop.classList.add('login_modal__backdrop--active');
+    loginModal.classList.add('login_modal--active');
+  });
+
+  loginModalClose.addEventListener('click', function() {
+    loginModalBackdrop.classList.remove('login_modal__backdrop--active');
+    loginModal.classList.remove('login_modal--active');
+  });
 
   // For getting newsletter popups every 10 seconds
   // let newsInterval = null;
