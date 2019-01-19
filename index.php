@@ -60,8 +60,8 @@
           <h4>to your account</h4>
         </div>
         <form class="login_modal__main__form">
-          <input type="email" placeholder='enter email address' />
-          <input type="password" placeholder='enter password' />
+          <input required type="email" placeholder='enter email address' />
+          <input required type="password" placeholder='enter password' />
           <button type='submit'>log in</button>
         </form>
         <div class="login_modal__main__oauth">
@@ -86,6 +86,41 @@
       </div>
     </div>
     <!-- /LOGIN_MODAL -->
+
+    <!-- REGISTER_MODAL -->
+    <div class="register_modal">
+      <div class="register_modal__close" title='close'>
+        <i class='fa fa-times'></i>
+      </div>
+      <div class="register_modal__main">
+        <div class="register_modal__main__title">
+          <h2>register</h2>
+          <h4>to our website</h4>
+        </div>
+        <form class="register_modal__main__form">
+          <input required type="text" placeholder='enter first name' />
+          <input required type="text" placeholder='enter last name' />
+          <input required type="text" placeholder='enter email address' />
+          <input required type="password" placeholder='enter password' />
+          <input required type="text" placeholder='enter mobile no.' />
+          <input required type="text" placeholder='enter city' />
+          <div class="register_modal__submit">register</div>
+          <button type='submit'>register</button>
+        </form>
+      </div>
+      <div class="register_modal__appendix">
+        <div class="register_modal__appendix__head">
+          <h2>start a journey</h2>
+          <div class="register_modal__appendix__head__sep"></div>
+          <p>enter the required details to become a part of our community</p>
+        </div>
+        <div class="register_modal__appendix__login">
+          <p>already have an account?</p>
+          <button>login here</button>
+        </div>
+      </div>
+    </div>
+    <!-- /REGISTER_MODAL -->
 
 
     <!-- NAVBAR_MAIN -->

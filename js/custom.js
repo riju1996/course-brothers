@@ -210,6 +210,46 @@ $(document).ready(function() {
     loginModal.classList.remove('login_modal--active');
   });
 
+
+
+  // For Register Modal Display
+  const registerButton = document.querySelector('.navbar_main__appendix__register');
+  const registerModal = document.querySelector('.register_modal');
+  const registerModalBackdrop = loginModalBackdrop;
+  const registerModalClose = document.querySelector('.register_modal__close');
+
+  registerButton.addEventListener('click', () => {
+    registerModalBackdrop.classList.add('login_modal__backdrop--active');
+    registerModal.classList.add('register_modal--active');
+  });
+
+  registerModalClose.addEventListener('click', () => {
+    registerModalBackdrop.classList.remove('login_modal__backdrop--active');
+    registerModal.classList.remove('register_modal--active');
+  });
+
+  // For Register Modal Submit Fix
+  const replacedRegisterSubmit = document.querySelector('.register_modal__submit');
+  const registerFormButton = document.querySelector('.register_modal__main__form button');
+
+  replacedRegisterSubmit.addEventListener('click', () => {
+    registerFormButton.click();
+  });
+
+
+  // Interchanging Register and Login Modals
+  const registerHereButton = document.querySelector('.login_modal__appendix__register');
+  const loginHereButton = document.querySelector('.register_modal__appendix__login');
+
+  registerHereButton.addEventListener('click', () => {
+    registerModal.classList.add('register_modal--active');
+    loginModal.classList.remove('login_modal--active');
+  });
+  loginHereButton.addEventListener('click', () => {
+    loginModal.classList.add('login_modal--active');
+    registerModal.classList.remove('register_modal--active');
+  });
+
   // For getting newsletter popups every 10 seconds
   // let newsInterval = null;
 
