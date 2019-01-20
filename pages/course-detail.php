@@ -40,6 +40,10 @@
     <?php include '../includes/navbar-main.php'; ?>
     <!-- /NAVBAR_MAIN -->
 
+    <!-- LOGIN_REGISTER_MODALS -->
+    <?php include '../includes/login-register-modal.php' ?>
+    <!-- /LOGIN_REGISTER_MODALS -->
+
 
     <!-- COURSE_DETAIL -->
     <div class="course_detail">
@@ -216,6 +220,7 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
   <!-- CUSTOM JS -->
   <script src='../js/courseDetail.js'></script>
+  <script src='../js/navbar.js'></script>
 
 </body>
 </html> 
