@@ -146,6 +146,18 @@ $(document).ready(function() {
   // For getting newsletter popups every 10 seconds
   // let newsInterval = null;
 
+//     function check_cookie(){
+//         var c=document.cookie;
+//         var c_array=c.split(';');
+//         for(var i=0;i<c_array.length;i++){
+//             var c_name=c_array[i].split('=')[0].trim();
+//             if(c_name=="e_id"){
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+  
   // function showNewsletter() {
   //   $('.newsletter_popup__backdrop').addClass('newsletter_popup__backdrop--active');
   //   $('.newsletter_popup').css({
